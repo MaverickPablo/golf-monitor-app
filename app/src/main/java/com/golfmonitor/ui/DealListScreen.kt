@@ -105,13 +105,14 @@ fun DealListScreen() {
         }
     }
 
-    val pullRefreshState = rememberPullToRefreshState(isRefreshing)
+    val pullRefreshState = rememberPullToRefreshState()
 
     Scaffold(
         topBar = { TopAppBar(title = { Text("Southeast Thames Tee Monitor") }) },
         snackbarHost = { SnackbarHost(snackbarHostState) }
     ) { padding ->
         PullToRefreshBox(
+            isRefreshing = isRefreshing,
             state = pullRefreshState,
             onRefresh = { refreshDeals() },
             modifier = Modifier.fillMaxSize()

@@ -9,6 +9,6 @@ object DealDatabaseProvider {
             context.applicationContext,
             DealDatabase::class.java,
             "golf_monitor_db"
-        ).build()
+        ).fallbackToDestructiveMigration().build()
     }
 }

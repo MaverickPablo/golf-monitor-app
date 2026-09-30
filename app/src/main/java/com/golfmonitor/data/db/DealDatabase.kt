@@ -9,7 +9,7 @@ import com.golfmonitor.data.db.entity.DealEntity
 import com.golfmonitor.data.db.dao.CourseDao
 import com.golfmonitor.data.db.dao.DealDao
 
-@Database(entities = [CourseEntity::class, DealEntity::class], version = 2)
+@Database(entities = [CourseEntity::class, DealEntity::class], version = 2, exportSchema = false)
 abstract class DealDatabase : RoomDatabase() {
     abstract fun courseDao(): CourseDao
     abstract fun dealDao(): DealDao

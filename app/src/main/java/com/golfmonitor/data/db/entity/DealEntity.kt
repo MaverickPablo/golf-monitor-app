@@ -11,8 +11,7 @@ data class DealEntity(
     val date: String,
     val time: String,
     val priceGbp: Double,
-    val baselinePriceGbp: Double?,
-    val discountPercent: Double?,
+    val baselinePriceGbp: Double? = null,
     val players: Int,
     val source: String,
     val bookingUrl: String?

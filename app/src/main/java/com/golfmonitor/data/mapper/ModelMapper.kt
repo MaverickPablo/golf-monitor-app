@@ -22,6 +22,19 @@ fun TeeTimeDeal.toEntity() = DealEntity(
     date = date,
     time = time,
     priceGbp = priceGbp,
+    baselinePriceGbp = baselinePriceGbp,
+    players = players,
+    source = source,
+    bookingUrl = bookingUrl
+)
+
+fun DealEntity.toModel() = TeeTimeDeal(
+    courseId = courseId,
+    courseName = courseName,
+    date = date,
+    time = time,
+    priceGbp = priceGbp,
+    baselinePriceGbp = baselinePriceGbp,
     players = players,
     source = source,
     bookingUrl = bookingUrl
