@@ -11,8 +11,11 @@ object AlertIngestor {
     const val SOURCE_LABEL = "GolfNow alert"
     const val GOLFNOW_URL = "https://www.golfnow.co.uk/"
 
-    /** Only notifications from apps whose package name contains one of these are read. */
-    private val PACKAGE_HINTS = listOf("golfnow")
+    /**
+     * Only notifications from apps whose package name contains one of these are read.
+     * The UK GolfNow app is com.golfbreaks.teeofftimes.phone (Play Store, Oct 2026).
+     */
+    private val PACKAGE_HINTS = listOf("golfnow", "teeofftimes", "golfbreaks")
 
     fun isGolfNowPackage(packageName: String): Boolean =
         PACKAGE_HINTS.any { packageName.contains(it, ignoreCase = true) }
