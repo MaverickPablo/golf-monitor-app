@@ -102,7 +102,7 @@ fun DealListScreen() {
     val pullRefreshState = rememberPullToRefreshState()
 
     Scaffold(
-        topBar = { TopAppBar(title = { Text("Sunday Caddie") }) },
+        topBar = { TopAppBar(title = { Text("Sunday Tee Monitoring") }) },
         snackbarHost = { SnackbarHost(snackbarHostState) }
     ) { padding ->
         PullToRefreshBox(

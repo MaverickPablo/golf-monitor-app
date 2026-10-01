@@ -1,6 +1,6 @@
-# Golf Tee Time Monitor – Southeast Thames
+# Sunday Tee Monitoring
 
-Android app to monitor weekend tee-time deals for courses in the Southeast of the River Thames, both sides of M25 down to the coast.
+Android app that finds the best-value Sunday-morning three-ball within 50 miles of Lenham (ME17 2DD), 07:00–12:00, up to £80 per player, and links straight to the booking page.
 
 ## Tech Stack and Framework
 

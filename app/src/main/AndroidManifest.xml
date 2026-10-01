@@ -2,7 +2,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
-        android:label="Golf Tee Monitor"
+        android:label="Sunday Tee Monitoring"
         android:supportsRtl="true">
         <activity android:name=".MainActivity"
             android:exported="true">
@@ -13,7 +13,7 @@
         </activity>
         <service
             android:name=".alerts.GolfNowListenerService"
-            android:label="Sunday Caddie GolfNow alerts"
+            android:label="Sunday Tee Monitoring - GolfNow alerts"
             android:exported="true"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
