@@ -17,4 +17,7 @@ interface DealDao {
 
     @Query("SELECT COUNT(*) FROM deals")
     suspend fun count(): Int
+
+    @Query("DELETE FROM deals WHERE source = :source")
+    suspend fun deleteBySource(source: String)
 }

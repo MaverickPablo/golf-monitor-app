@@ -22,8 +22,19 @@ android {
         versionName = "1.0"
         buildConfigField("String", "UK_GOLF_API_KEY", "\"${System.getenv("UK_GOLF_API_KEY") ?: project.findProperty("ukGolfApiKey") ?: ""}\"")
     }
+    signingConfigs {
+        // Fixed debug key so every CI build installs over the previous one
+        // (otherwise each runner generates a new key and Android refuses the update).
+        getByName("debug") {
+            storeFile = rootProject.file("keystore/debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
+    }
     buildTypes {
         debug {
+            signingConfig = signingConfigs.getByName("debug")
             isDebuggable = true
             buildConfigField("String", "API_ENV", "\"debug\"")
         }

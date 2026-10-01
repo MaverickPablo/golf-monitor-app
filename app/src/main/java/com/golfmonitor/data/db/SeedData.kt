@@ -12,6 +12,7 @@ import java.time.temporal.TemporalAdjusters
 
 object SeedData {
     private const val COURSES_ASSET = "courses.json"
+    const val DEMO_SOURCE = "Demo"
 
     /** One row of assets/courses.json (bookable courses within 90 min of ME17 2DD). */
     data class SeedCourse(
@@ -80,7 +81,7 @@ object SeedData {
                 priceGbp = price,
                 baselinePriceGbp = baseline,
                 players = AppConfig.PLAYERS_REQUIRED,
-                source = "Demo",
+                source = DEMO_SOURCE,
                 bookingUrl = course.bookingUrl ?: course.websiteUrl
             )
         }

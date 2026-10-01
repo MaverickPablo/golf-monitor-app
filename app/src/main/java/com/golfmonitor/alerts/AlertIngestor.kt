@@ -2,6 +2,7 @@ package com.golfmonitor.alerts
 
 import android.content.Context
 import com.golfmonitor.data.db.DealDatabaseProvider
+import com.golfmonitor.data.db.SeedData
 import com.golfmonitor.data.db.entity.CapturedAlertEntity
 import com.golfmonitor.data.db.entity.DealEntity
 import java.time.LocalDateTime
@@ -43,6 +44,8 @@ object AlertIngestor {
         )
 
         if (parsed != null) {
+            // First real deal replaces the placeholder slots.
+            db.dealDao().deleteBySource(SeedData.DEMO_SOURCE)
             db.dealDao().insertAll(
                 listOf(
                     DealEntity(
