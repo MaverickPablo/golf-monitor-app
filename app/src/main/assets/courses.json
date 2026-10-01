@@ -66,7 +66,7 @@
   "longitude": 0.5674296,
   "driveMinutes": 22,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "https://gillingham.intelligentgolf.co.uk/login.php",
+  "bookingUrl": "https://gillingham.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://www.gillinghamgolfclub.co.uk/",
   "imageUrl": "https://www.gillinghamgolfclub.co.uk/uploads/slide_images/slider20250212.jpg",
   "lastPlayed": null
@@ -90,7 +90,7 @@
   "longitude": 0.3435,
   "driveMinutes": 25,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "http://www.intelligentgolf.co.uk/",
+  "bookingUrl": null,
   "websiteUrl": "https://www.wrothamheathgolfclub.co.uk/",
   "imageUrl": "https://www.wrothamheathgolfclub.co.uk/images/thumbs/slideshow/wrotham/1500x632/0-0-0-0/1/1_55.jpg",
   "lastPlayed": null
@@ -258,7 +258,7 @@
   "longitude": 0.0629256,
   "driveMinutes": 43,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "https://www.intelligentgolf.co.uk",
+  "bookingUrl": null,
   "websiteUrl": "https://www.chislehurstgolfclub.co.uk/",
   "imageUrl": "https://chislehurst.designmode.intelligentgolf.co.uk/images/thumbs/sites/chislehurst/Home%20Design/940x0/1/home-small-1.jpg",
   "lastPlayed": null
@@ -270,7 +270,7 @@
   "longitude": 0.9682597,
   "driveMinutes": 43,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "https://www.intelligentgolf.co.uk",
+  "bookingUrl": null,
   "websiteUrl": "https://www.littlestonegolfclub.org.uk",
   "imageUrl": "https://www.littlestonegolfclub.org.uk/images/resources/littlestone/littlestone-small.jpg",
   "lastPlayed": null
@@ -282,7 +282,7 @@
   "longitude": 1.3535676,
   "driveMinutes": 43,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "https://www.stonelees.com/https/stoneleesintelligentgolfcouk/loginphp",
+  "bookingUrl": null,
   "websiteUrl": "https://www.stonelees.com/",
   "imageUrl": "https://images.squarespace-cdn.com/content/v1/5b8fa67caf2096fa17ad0390/1731411320888-E6IM1N1CXSMGK0TCG7NT/stonelees-golf-home-images-2.jpg",
   "lastPlayed": null
@@ -582,7 +582,7 @@
   "longitude": 0.4701617,
   "driveMinutes": 59,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "https://basildon.intelligentgolf.co.uk/memberbooking/",
+  "bookingUrl": "https://basildon.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://basildongolfcourse.com/",
   "imageUrl": "https://basildongolfcourse.com/sites/default/files/slider/green-back.jpg",
   "lastPlayed": null
@@ -642,7 +642,7 @@
   "longitude": -0.033287,
   "driveMinutes": 61,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "https://farleigh.intelligentgolf.co.uk/",
+  "bookingUrl": "https://farleigh.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://www.farleighfox.co.uk/",
   "imageUrl": "https://www.farleighfox.co.uk/media/mrdf11kr/3.jpg",
   "lastPlayed": null
@@ -690,7 +690,7 @@
   "longitude": -0.2209971,
   "driveMinutes": 62,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "https://www.intelligentgolf.co.uk/",
+  "bookingUrl": null,
   "websiteUrl": "https://www.cuddingtongc.co.uk/",
   "imageUrl": "https://www.cuddingtongc.co.uk/images/thumbs/slideshow/cuddington/2000x1077/0-0-0-0/1/34_117.jpg",
   "lastPlayed": null
@@ -702,7 +702,7 @@
   "longitude": 0.4553482,
   "driveMinutes": 66,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "https://chelmsford.intelligentgolf.co.uk/",
+  "bookingUrl": "https://chelmsford.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://www.chelmsfordgc.co.uk/",
   "imageUrl": "https://www.chelmsfordgc.co.uk/wp-content/uploads/2022/06/hero-home.webp",
   "lastPlayed": null
@@ -834,7 +834,7 @@
   "longitude": 0.2473043,
   "driveMinutes": 70,
   "bookingSystem": "ClubV1",
-  "bookingUrl": "https://willingdon.hub.clubv1.com/",
+  "bookingUrl": "https://willingdon.hub.clubv1.com/visitors/booking/",
   "websiteUrl": "https://www.willingdongolfclub.co.uk/",
   "imageUrl": "https://static1.squarespace.com/static/6830fb6dde1da42743eafc93/t/6833040b1b6e2719d4a384eb/1748173835173/Willingdon+Golf+Club.png?format=1500w",
   "lastPlayed": null
@@ -906,7 +906,7 @@
   "longitude": 0.2612116,
   "driveMinutes": 72,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "https://royaleastbourne.designmode.intelligentgolf.co.uk/devonshire_course_overview",
+  "bookingUrl": null,
   "websiteUrl": "https://www.regc.co.uk/",
   "imageUrl": "https://www.regc.co.uk/images/thumbs/slideshow/royaleastbourne/2010x1207/10-0-7-0/1/7_187.jpg",
   "lastPlayed": null
@@ -978,7 +978,7 @@
   "longitude": 0.0680143,
   "driveMinutes": 77,
   "bookingSystem": "BRS",
-  "bookingUrl": "https://default.hub.clubv1.com/",
+  "bookingUrl": null,
   "websiteUrl": "https://www.canonsbrook.com/",
   "imageUrl": "https://www.canonsbrook.com/wp-content/uploads/2022/03/The-Brook-600x600-2-250x250.png",
   "lastPlayed": null
@@ -1002,7 +1002,7 @@
   "longitude": -0.2737291,
   "driveMinutes": 78,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "https://www.intelligentgolf.co.uk/",
+  "bookingUrl": null,
   "websiteUrl": "https://www.coombewoodgolf.com/",
   "imageUrl": "https://www.coombewoodgolf.com/images/thumbs/slideshow/coombewood/2000x1101/0-0-0-0/1/58_269.jpg",
   "lastPlayed": null
@@ -1110,7 +1110,7 @@
   "longitude": -0.6173164,
   "driveMinutes": 81,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "https://www.intelligentgolf.co.uk/",
+  "bookingUrl": null,
   "websiteUrl": "https://www.westhillgc.co.uk/",
   "imageUrl": "https://www.westhillgc.co.uk/images/thumbs/slideshow/westhill/2000x1121/0-0-0-0/1/56_626.jpg",
   "lastPlayed": null
@@ -1194,7 +1194,7 @@
   "longitude": -0.7132378,
   "driveMinutes": 84,
   "bookingSystem": "intelligentgolf",
-  "bookingUrl": "https://www.intelligentgolf.co.uk/",
+  "bookingUrl": null,
   "websiteUrl": "https://www.theberkshire.co.uk/",
   "imageUrl": "https://www.theberkshire.co.uk/images/resources/theberkshire/the-berkshire-hires-ts.jpg",
   "lastPlayed": null
@@ -1278,7 +1278,7 @@
   "longitude": -0.5339507,
   "driveMinutes": 87,
   "bookingSystem": "BRS",
-  "bookingUrl": "https://members.brsgolf.com/iver/login",
+  "bookingUrl": "https://visitors.brsgolf.com/iver",
   "websiteUrl": "http://www.ivergolfclub.co.uk/",
   "imageUrl": null,
   "lastPlayed": null
@@ -1314,7 +1314,7 @@
   "longitude": 0.071164,
   "driveMinutes": 88,
   "bookingSystem": "BRS",
-  "bookingUrl": "https://members.brsgolf.com/ashvalley/login",
+  "bookingUrl": "https://visitors.brsgolf.com/ashvalley",
   "websiteUrl": "https://www.ashvalley.co.uk/",
   "imageUrl": "https://static.wixstatic.com/media/2dd7a6_2674b8e573ac48c0adb631eac50920d2.jpg/v1/fit/w_2500,h_1330,al_c/2dd7a6_2674b8e573ac48c0adb631eac50920d2.jpg",
   "lastPlayed": null
@@ -1326,7 +1326,7 @@
   "longitude": -0.1782088,
   "driveMinutes": 89,
   "bookingSystem": "ClubV1",
-  "bookingUrl": "https://hampsteadgc.hub.clubv1.com/",
+  "bookingUrl": "https://hampsteadgc.hub.clubv1.com/visitors/booking/",
   "websiteUrl": "https://www.hampsteadgolfclub.co.uk/",
   "imageUrl": "https://hampsteadgolfclub.co.uk/wp-content/uploads/2020/07/HGC-6th-Hole-Drama-HERO-scaled.jpg",
   "lastPlayed": null
@@ -1386,7 +1386,7 @@
   "longitude": -0.298691,
   "driveMinutes": 90,
   "bookingSystem": "ClubV1",
-  "bookingUrl": "https://therichmond.hub.clubv1.com/",
+  "bookingUrl": "https://therichmond.hub.clubv1.com/visitors/booking/",
   "websiteUrl": "https://www.therichmondgolfclub.com/",
   "imageUrl": "https://sudbrookpark.co.uk/wp-content/uploads/2023/10/bride-and-groom-drive--300x125.jpg",
   "lastPlayed": null

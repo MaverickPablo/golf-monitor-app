@@ -102,7 +102,7 @@ fun DealListScreen() {
     val pullRefreshState = rememberPullToRefreshState()
 
     Scaffold(
-        topBar = { TopAppBar(title = { Text("Southeast Thames Tee Monitor") }) },
+        topBar = { TopAppBar(title = { Text("Sunday Caddie") }) },
         snackbarHost = { SnackbarHost(snackbarHostState) }
     ) { padding ->
         PullToRefreshBox(
@@ -116,8 +116,8 @@ fun DealListScreen() {
                     Column(modifier = Modifier.padding(16.dp)) {
                         Text("Centre: ${AppConfig.CENTER_POSTCODE}")
                         Text("Max fee: £${String.format("%.0f", maxPrice)}")
-                        Text("Radius: ${AppConfig.RADIUS_KM} km")
-                        Text("Weekend only")
+                        Text("Radius: ${AppConfig.RADIUS_MILES} miles")
+                        Text("Sundays ${AppConfig.TIME_WINDOW_START}–${AppConfig.TIME_WINDOW_END} • ${AppConfig.PLAYERS_REQUIRED} players")
                         if (lastSaved.isNotEmpty()) {
                             Text("Last saved: $lastSaved", style = MaterialTheme.typography.bodySmall)
                         }
