@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.List
+import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -21,6 +22,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.lifecycleScope
 import com.golfmonitor.data.db.SeedData
+import com.golfmonitor.ui.AlertsScreen
 import com.golfmonitor.ui.CheckSundayScreen
 import com.golfmonitor.ui.DealListScreen
 import com.golfmonitor.work.scheduleWeekendMonitor
@@ -40,7 +42,8 @@ class MainActivity : ComponentActivity() {
                     Box(modifier = Modifier.weight(1f)) {
                         when (tab) {
                             0 -> DealListScreen()
-                            else -> CheckSundayScreen()
+                            1 -> CheckSundayScreen()
+                            else -> AlertsScreen()
                         }
                     }
                     NavigationBar {
@@ -55,6 +58,12 @@ class MainActivity : ComponentActivity() {
                             onClick = { tab = 1 },
                             icon = { Icon(Icons.Filled.DateRange, contentDescription = null) },
                             label = { Text("Check Sunday") }
+                        )
+                        NavigationBarItem(
+                            selected = tab == 2,
+                            onClick = { tab = 2 },
+                            icon = { Icon(Icons.Filled.Notifications, contentDescription = null) },
+                            label = { Text("Alerts") }
                         )
                     }
                 }

@@ -81,8 +81,10 @@ fun DealCard(
                         )
                     }
                 }
-                Spacer(modifier = Modifier.width(8.dp))
-                Text("• ${deal.players} players", style = MaterialTheme.typography.bodyMedium)
+                if (deal.players > 0) {
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text("• ${deal.players} players", style = MaterialTheme.typography.bodyMedium)
+                }
             }
 
             details?.let {
