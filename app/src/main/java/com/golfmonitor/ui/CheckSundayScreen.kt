@@ -2,7 +2,9 @@ package com.golfmonitor.ui
 
 import android.content.Intent
 import android.net.Uri
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -18,6 +20,9 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.golfmonitor.data.db.entity.CourseEntity
 import com.golfmonitor.data.preferences.CheckPreferences
+import com.golfmonitor.offers.Offer
+import com.golfmonitor.offers.OfferCatalog
+import com.golfmonitor.offers.Scheme
 import com.golfmonitor.planner.CheckSundayPlanner
 import com.golfmonitor.repository.DealRepository
 import kotlinx.coroutines.launch
@@ -43,9 +48,16 @@ fun CheckSundayScreen() {
     val checked by checkedFlow.collectAsState(initial = emptySet())
     val nearOnlyFlow = remember { CheckPreferences.nearOnlyFlow(context) }
     val nearOnly by nearOnlyFlow.collectAsState(initial = true)
+    val schemesFlow = remember { CheckPreferences.schemesFlow(context) }
+    val schemes by schemesFlow.collectAsState(initial = emptySet())
 
-    val ordered = remember(courses, sunday, nearOnly) {
-        CheckSundayPlanner.orderForChecking(courses, sunday, nearOnly)
+    val allOffers = remember {
+        OfferCatalog.parse(context.assets.open(OfferCatalog.ASSET).bufferedReader().use { it.readText() })
+    }
+    val offersByCourse = remember(allOffers, schemes) { OfferCatalog.usableByCourse(allOffers, schemes) }
+
+    val ordered = remember(courses, sunday, nearOnly, offersByCourse) {
+        CheckSundayPlanner.orderForChecking(courses, sunday, nearOnly, offersByCourse.keys)
     }
     val checkedCount = ordered.count { it.id in checked }
 
@@ -85,8 +97,26 @@ fun CheckSundayScreen() {
                     Text("Reset")
                 }
             }
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .horizontalScroll(rememberScrollState())
+                    .padding(horizontal = 16.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text("My schemes", style = MaterialTheme.typography.labelLarge)
+                Scheme.values().forEach { scheme ->
+                    val member = scheme in schemes
+                    FilterChip(
+                        selected = member,
+                        onClick = { scope.launch { CheckPreferences.setMember(context, scheme, !member) } },
+                        label = { Text(scheme.label) }
+                    )
+                }
+            }
             Text(
-                "Tap Check to open the club's visitor booking page. Not played recently comes first, then nearest.",
+                "Tap Check to open the club's visitor booking page. Not played recently comes first, then scheme offers, then nearest.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(horizontal = 16.dp)
@@ -99,6 +129,7 @@ fun CheckSundayScreen() {
                         course = course,
                         isChecked = course.id in checked,
                         playedRecently = CheckSundayPlanner.playedRecently(course, sunday),
+                        offers = offersByCourse[course.id].orEmpty(),
                         onCheckedChange = { setChecked(course, it) },
                         onOpen = { open(course) }
                     )
@@ -113,6 +144,7 @@ private fun CheckCourseRow(
     course: CourseEntity,
     isChecked: Boolean,
     playedRecently: Boolean,
+    offers: List<Offer>,
     onCheckedChange: (Boolean) -> Unit,
     onOpen: () -> Unit
 ) {
@@ -133,7 +165,16 @@ private fun CheckCourseRow(
                 course.bookingSystem?.takeIf { it != "unknown/own" } ?: "Club site",
                 course.lastPlayed?.let { if (playedRecently) "played $it (recent)" else "played $it" }
             )
-            Text(parts.joinToString(" • "), maxLines = 2)
+            Column {
+                Text(parts.joinToString(" • "), maxLines = 2)
+                offers.forEach {
+                    Text(
+                        it.summary(),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                }
+            }
         },
         trailingContent = {
             Row(verticalAlignment = Alignment.CenterVertically) {

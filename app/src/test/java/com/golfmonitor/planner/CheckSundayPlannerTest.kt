@@ -60,4 +60,18 @@ class CheckSundayPlannerTest {
         )
         assertEquals(5, CheckSundayPlanner.orderForChecking(courses, sunday, nearOnly = false).size)
     }
+
+    @Test
+    fun offerCoursesComeBeforeNearerCoursesButAfterRotation() {
+        val sunday = LocalDate.of(2026, 10, 4)
+        val courses = listOf(
+            course("near", 10),
+            course("offer", 40),
+            course("offerRecent", 20, lastPlayed = "2026-09-27")
+        )
+        assertEquals(
+            listOf("offer", "near", "offerRecent"),
+            CheckSundayPlanner.orderForChecking(courses, sunday, nearOnly = true, offerCourseIds = setOf("offer", "offerRecent")).map { it.id }
+        )
+    }
 }

@@ -44,18 +44,20 @@ object CheckSundayPlanner {
     fun checkUrl(course: CourseEntity): String? = course.bookingUrl ?: course.websiteUrl
 
     /**
-     * Courses not played recently first, then by drive time. Courses with no link
-     * to open go last.
+     * Courses not played recently first, then courses with a usable scheme offer, then
+     * by drive time. Courses with no link to open go last.
      */
     fun orderForChecking(
         courses: List<CourseEntity>,
         sunday: LocalDate,
-        nearOnly: Boolean
+        nearOnly: Boolean,
+        offerCourseIds: Set<String> = emptySet()
     ): List<CourseEntity> = courses
         .filter { !nearOnly || (it.driveMinutes ?: Int.MAX_VALUE) <= NEAR_DRIVE_MINUTES }
         .sortedWith(
             compareBy<CourseEntity> { checkUrl(it) == null }
                 .thenBy { playedRecently(it, sunday) }
+                .thenBy { it.id !in offerCourseIds }
                 .thenBy { it.driveMinutes ?: Int.MAX_VALUE }
                 .thenBy { it.name }
         )

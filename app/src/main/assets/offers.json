@@ -1,0 +1,38 @@
+[
+ {
+  "courseId": "tenterden-golf-club",
+  "scheme": "TWOFORE1",
+  "saving": "2-for-1 green fee",
+  "sundayFrom": "09:00",
+  "sundayTo": null,
+  "bookHow": "Phone 01580 763987",
+  "checkedOn": "2026-10-01"
+ },
+ {
+  "courseId": "tenterden-golf-club",
+  "scheme": "GREENFREE",
+  "saving": "Free green fee with a paying guest",
+  "sundayFrom": null,
+  "sundayTo": null,
+  "bookHow": "Phone the club; ask about Sunday mornings",
+  "checkedOn": "2026-10-01"
+ },
+ {
+  "courseId": "westgate-and-birchington-golf-club",
+  "scheme": "PLAYMOREGOLF",
+  "saving": "Points round (weekend flexi 2-8 pts)",
+  "sundayFrom": null,
+  "sundayTo": null,
+  "bookHow": "Book through the PlayMoreGolf app",
+  "checkedOn": "2026-10-01"
+ },
+ {
+  "courseId": "beauport-park-golf-course",
+  "scheme": "PLAYMOREGOLF",
+  "saving": "Points round (weekend flexi 2-8 pts)",
+  "sundayFrom": null,
+  "sundayTo": null,
+  "bookHow": "Book through the PlayMoreGolf app",
+  "checkedOn": "2026-10-01"
+ }
+]
