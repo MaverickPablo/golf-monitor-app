@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     kotlin("android")
@@ -21,7 +23,7 @@ android {
         versionCode = 1
         versionName = "1.0"
         // Key from env, a Gradle property, or local.properties (gitignored). CI builds have none.
-        val localProps = java.util.Properties().apply {
+        val localProps = Properties().apply {
             rootProject.file("local.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) }
         }
         val ukGolfApiKey = System.getenv("UK_GOLF_API_KEY")
