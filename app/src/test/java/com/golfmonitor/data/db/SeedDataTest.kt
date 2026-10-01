@@ -20,7 +20,11 @@ class SeedDataTest {
             assertTrue(it.name, it.latitude in 50.0..52.5 && it.longitude in -1.5..2.0)
             assertTrue(it.name, (it.driveMinutes ?: 0) in 1..90)
             assertTrue(it.name, it.imageUrl == null || it.imageUrl!!.startsWith("https://"))
+            assertTrue(it.name, it.greenFeeBaseline == null || it.greenFeeBaseline!! in 15.0..400.0)
+            assertTrue(it.name, it.googleRating == null || it.googleRating!! in 1.0..5.0)
         }
+        val withFees = courses.count { it.greenFeeBaseline != null }
+        assertTrue("expected most courses to have a usual fee, got $withFees", withFees >= 40)
     }
 
     @Test

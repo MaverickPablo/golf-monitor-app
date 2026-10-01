@@ -9,7 +9,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.theridgegolfclub.co.uk/",
   "imageUrl": "https://www.theridgegolfclub.co.uk/wp-content/uploads/2023/01/Top-10-Best-Premium-Kids-Golf-Clubs-To-Buy-In-The-UK.jpg",
-  "lastPlayed": "2026-06-28"
+  "lastPlayed": "2026-06-28",
+  "county": "Kent",
+  "postcode": "ME17 3JB",
+  "greenFeeBaseline": 43.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "79696240-0c34-48e3-af38-0a3bdeeb31f4"
  },
  {
   "id": "the-weald-of-kent-golf-course",
@@ -21,7 +26,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.weald-of-kent.co.uk/",
   "imageUrl": "https://static.wixstatic.com/media/cdcb9a_f2ae3d2cdf6949a081a01e33c325022af000.jpg/v1/fill/w_217,h_122,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/cdcb9a_f2ae3d2cdf6949a081a01e33c325022af000.jpg",
-  "lastPlayed": "2025-07-06"
+  "lastPlayed": "2025-07-06",
+  "county": "Kent",
+  "postcode": "TN27 9PT",
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": "21a03d18-bc58-42e2-a4f8-879777e30c8d"
  },
  {
   "id": "bearsted-golf-club",
@@ -33,7 +43,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.bearstedgolfclub.co.uk/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/16/209100119fad-15th-backwards.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "ME14 4PQ",
+  "greenFeeBaseline": null,
+  "googleRating": 4.4,
+  "ukGolfClubId": "7f9b104e-2e47-4eb6-848b-e6e3a5d56609"
  },
  {
   "id": "great-chart-golf-leisure",
@@ -45,7 +60,12 @@
   "bookingUrl": null,
   "websiteUrl": "http://www.shoottheboss.co.uk/",
   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Golf_Driving_Range_-_geograph.org.uk_-_2955730.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": "4b73e163-5bda-4be7-8df1-94f1c3ceb0d5"
  },
  {
   "id": "village-golf-sports-club",
@@ -57,7 +77,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.villagegolf.org.uk/",
   "imageUrl": "https://www.villagegolf.org.uk/uploads/1/7/5/1/17510447/1360893443.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "gillingham-golf-club",
@@ -69,7 +94,12 @@
   "bookingUrl": "https://gillingham.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://www.gillinghamgolfclub.co.uk/",
   "imageUrl": "https://www.gillinghamgolfclub.co.uk/uploads/slide_images/slider20250212.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Medway",
+  "postcode": "ME7 2AP",
+  "greenFeeBaseline": null,
+  "googleRating": 4.3,
+  "ukGolfClubId": "03be81e2-4fc2-4888-ae8e-8f91aae07f00"
  },
  {
   "id": "west-malling-golf-course",
@@ -81,7 +111,12 @@
   "bookingUrl": "https://www.westmallinggolf.com/visitorbooking",
   "websiteUrl": "https://www.westmallinggolf.com/",
   "imageUrl": "https://www.westmallinggolf.com/images/thumbs/slideshow/westmalling/1500x600/0-0-0-0/1/1_49.jpg",
-  "lastPlayed": "2021-10"
+  "lastPlayed": "2021-10",
+  "county": "Kent",
+  "postcode": "ME19 5AR",
+  "greenFeeBaseline": null,
+  "googleRating": 4.4,
+  "ukGolfClubId": "75d4ab82-a27f-4824-ab84-df85cd992d98"
  },
  {
   "id": "wrotham-heath-golf-club",
@@ -93,7 +128,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.wrothamheathgolfclub.co.uk/",
   "imageUrl": "https://www.wrothamheathgolfclub.co.uk/images/thumbs/slideshow/wrotham/1500x632/0-0-0-0/1/1_55.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "TN15 8QZ",
+  "greenFeeBaseline": null,
+  "googleRating": 4.6,
+  "ukGolfClubId": "4cfff5da-303d-4495-a2f0-2d66a9f0a9f3"
  },
  {
   "id": "tenterden-golf-club",
@@ -105,7 +145,12 @@
   "bookingUrl": null,
   "websiteUrl": "http://www.tenterdengolfclub.co.uk/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/231/8b77ceb0b664-course-overview-1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "TN30 7DR",
+  "greenFeeBaseline": null,
+  "googleRating": 4.5,
+  "ukGolfClubId": "166774f7-448a-4a79-8502-d5514534daf0"
  },
  {
   "id": "sheerness-golf-club",
@@ -117,7 +162,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.sheernessgolfclub.co.uk",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/354/2b31b8ca5996-sngc.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "ME12 3AD",
+  "greenFeeBaseline": 65.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "2b1d2346-a288-4264-b8e6-04d70090e506"
  },
  {
   "id": "chestfield-golf-club",
@@ -129,7 +179,12 @@
   "bookingUrl": "https://chestfield.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://www.chestfield-golfclub.co.uk/",
   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Footpath_onto_Chestfield_Golf_Course._-_geograph.org.uk_-_413335.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "CT5 3LU",
+  "greenFeeBaseline": 75.0,
+  "googleRating": 4.6,
+  "ukGolfClubId": "4e8d202d-940c-4947-9127-b7742fab6034"
  },
  {
   "id": "mid-kent-golf-club",
@@ -141,7 +196,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://mkgc.co.uk/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/141/e6d136c50ae0-8th-green-9680a.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "DA11 7RB",
+  "greenFeeBaseline": 50.0,
+  "googleRating": 4.3,
+  "ukGolfClubId": "14024b44-9f7e-4090-a960-512eea072cc6"
  },
  {
   "id": "canterbury-golf-club",
@@ -153,7 +213,12 @@
   "bookingUrl": "https://canterbury.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://www.canterburygolfclub.co.uk/",
   "imageUrl": "https://www.canterburygolfclub.co.uk/wp-content/uploads/2026/06/hiseman_canterburygc_may2026_golfcourse_300dpi_print-279-1-scaled.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "CT1 1TW",
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": "68babbbc-e73e-4b8b-8e5f-744c8191228c"
  },
  {
   "id": "folkestone-sports-centre",
@@ -165,7 +230,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.folkestonesportscentre.co.uk/",
   "imageUrl": "https://www.folkestonesportscentre.co.uk/wp-content/uploads/2023/04/Sports-centre-entrance-scaled.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "dale-hill-golf-club",
@@ -177,7 +247,12 @@
   "bookingUrl": "https://bookteetime.dalehill.co.uk/golf",
   "websiteUrl": "https://www.dalehill.co.uk/golf",
   "imageUrl": null,
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "East Sussex",
+  "postcode": "TN5 7DQ",
+  "greenFeeBaseline": null,
+  "googleRating": 4.3,
+  "ukGolfClubId": "f7c9f95a-3955-4e0a-b19e-183b7326d8b3"
  },
  {
   "id": "wildernesse-club",
@@ -189,7 +264,12 @@
   "bookingUrl": "https://www.wildernesse.co.uk/visitorbooking",
   "websiteUrl": "https://www.wildernesse.co.uk/",
   "imageUrl": "https://www.wildernesse.co.uk/images/thumbs/slideshow/wildernesse/1500x845/0-0-0-0/1/1_1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "TN15 0JE",
+  "greenFeeBaseline": null,
+  "googleRating": 4.7,
+  "ukGolfClubId": "e4d123d4-9c91-4297-b17e-3e14cc034b03"
  },
  {
   "id": "gravesend-golf-centre",
@@ -201,7 +281,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.gravesendgolfcentre.com/",
   "imageUrl": "https://www.gravesendgolfcentre.com/wp-content/uploads/2017/02/slider5.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "lydd-golf-club",
@@ -213,7 +298,12 @@
   "bookingUrl": "https://visitors.brsgolf.com/lydd#/course/1",
   "websiteUrl": "https://www.lyddgolfclub.co.uk/",
   "imageUrl": "https://www.lyddgolfclub.co.uk/wp-content/uploads/sites/5993/2024/03/418908152_1077653110315742_4280532806965380954_n.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "TN29 9LS",
+  "greenFeeBaseline": 40.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "185cf9df-b228-47bf-a883-2a59ee3f2f67"
  },
  {
   "id": "broome-park-golf-club",
@@ -225,7 +315,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.broomepark.co.uk/",
   "imageUrl": "https://broomepark.co.uk/wp-content/uploads/2023/10/ezgif-2-291c3b93d9.webp",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "CT4 6QX",
+  "greenFeeBaseline": null,
+  "googleRating": 4.1,
+  "ukGolfClubId": "425621a1-5c12-4c60-8188-86d546c88941"
  },
  {
   "id": "nevill-golf-club",
@@ -237,7 +332,12 @@
   "bookingUrl": "https://www.nevillgolfclub.co.uk/visitorbooking",
   "websiteUrl": "https://www.nevillgolfclub.co.uk/",
   "imageUrl": "https://www.nevillgolfclub.co.uk/images/thumbs/slideshow/nevill/2000x1075/0-0-0-0/1/6_11.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "East Sussex",
+  "postcode": "TN2 5JW",
+  "greenFeeBaseline": null,
+  "googleRating": 4.6,
+  "ukGolfClubId": "ac29eb65-af18-46ff-9060-0d893b799d8b"
  },
  {
   "id": "westgate-and-birchington-golf-club",
@@ -249,7 +349,12 @@
   "bookingUrl": "https://visitors.brsgolf.com/westgatebirchington#/course/1",
   "websiteUrl": "https://westgate-and-birchington-golfclub.co.uk/",
   "imageUrl": "https://static.wixstatic.com/media/e4f166_8b0a669bfc4549ee8c75f7dabad2a098~mv2.jpg/v1/fill/w_100,h_67,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/e4f166_8b0a669bfc4549ee8c75f7dabad2a098~mv2.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "CT8 8LT",
+  "greenFeeBaseline": null,
+  "googleRating": 4.5,
+  "ukGolfClubId": "8f1a5444-5d19-4789-91c2-a42bae2a3f64"
  },
  {
   "id": "chislehurst-golf-course",
@@ -261,7 +366,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.chislehurstgolfclub.co.uk/",
   "imageUrl": "https://chislehurst.designmode.intelligentgolf.co.uk/images/thumbs/sites/chislehurst/Home%20Design/940x0/1/home-small-1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "BR7 5HJ",
+  "greenFeeBaseline": null,
+  "googleRating": 4.5,
+  "ukGolfClubId": "df877da3-fe04-4f98-893d-d6d3df6274c6"
  },
  {
   "id": "littlestone-golf-club",
@@ -273,7 +383,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.littlestonegolfclub.org.uk",
   "imageUrl": "https://www.littlestonegolfclub.org.uk/images/resources/littlestone/littlestone-small.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "TN28 8RB",
+  "greenFeeBaseline": 40.0,
+  "googleRating": 4.4,
+  "ukGolfClubId": "58c033e3-033d-44e9-8691-ea6940842679"
  },
  {
   "id": "stonelees-golf-centre",
@@ -285,7 +400,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.stonelees.com/",
   "imageUrl": "https://images.squarespace-cdn.com/content/v1/5b8fa67caf2096fa17ad0390/1731411320888-E6IM1N1CXSMGK0TCG7NT/stonelees-golf-home-images-2.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "CT12 5DJ",
+  "greenFeeBaseline": 30.0,
+  "googleRating": 4.6,
+  "ukGolfClubId": "d7c3bd72-d4d4-474d-9905-7c47c746a981"
  },
  {
   "id": "bexleyheath-golf-club",
@@ -297,7 +417,12 @@
   "bookingUrl": "https://bexleyheath.hub.clubv1.com/visitors/booking/",
   "websiteUrl": "http://bexleyheath-golf.com/",
   "imageUrl": "https://bexleyheath.golf/wp-content/uploads/2024/07/bexleyheath-hp.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "DA6 8JS",
+  "greenFeeBaseline": null,
+  "googleRating": 4.5,
+  "ukGolfClubId": "063f5b01-9949-4baa-ac9d-8201ec17335c"
  },
  {
   "id": "manston-golf-centre",
@@ -309,7 +434,12 @@
   "bookingUrl": "https://book.sweetspot.io/clubs/manston-golf/1964/tee-sheet",
   "websiteUrl": "https://www.manstongolf.co.uk/",
   "imageUrl": "https://www.manstongolf.co.uk/images/og/og1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "CT12 5BE",
+  "greenFeeBaseline": 22.5,
+  "googleRating": 4.5,
+  "ukGolfClubId": "ee0002e8-74e3-4db7-bd86-1a30c99b9ce2"
  },
  {
   "id": "west-kent-golf-club",
@@ -321,7 +451,12 @@
   "bookingUrl": "https://www.wkgc.co.uk/book_a_teetime",
   "websiteUrl": "https://www.wkgc.co.uk/",
   "imageUrl": "https://www.wkgc.co.uk/images/thumbs/slideshow/westkent/2000x1075/0-0-0-0/1/1_6.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "limpsfield-chart-golf-club",
@@ -333,7 +468,12 @@
   "bookingUrl": "http://limpsfieldchartgolf.co.uk/visitorbooking",
   "websiteUrl": "http://limpsfieldchartgolf.co.uk/",
   "imageUrl": "https://www.limpsfieldchartgolf.co.uk/images/thumbs/slideshow/limpsfieldchart/1500x828/0-0-0-0/1/1_2.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "RH8 0SH",
+  "greenFeeBaseline": null,
+  "googleRating": 4.3,
+  "ukGolfClubId": "efc786e7-3fd1-4b3b-81df-bcab2182f2b7"
  },
  {
   "id": "sedlescombe-golf-club",
@@ -345,7 +485,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.sedlescombegolfclub.co.uk/",
   "imageUrl": "https://www.sedlescombegolfclub.co.uk/wp-content/uploads/2020/01/J-394x394.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Sussex",
+  "postcode": "TN33 0SG",
+  "greenFeeBaseline": null,
+  "googleRating": 4.3,
+  "ukGolfClubId": "dc4d03d9-7db4-4ee9-a691-8feb42a0add5"
  },
  {
   "id": "beauport-park-golf-course",
@@ -357,7 +502,12 @@
   "bookingUrl": null,
   "websiteUrl": "http://www.beauportparkgolf.co.uk/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/3847/9610b666fe38-18th-green-sunset.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Sussex",
+  "postcode": "TN37 7BP",
+  "greenFeeBaseline": 25.0,
+  "googleRating": 4.2,
+  "ukGolfClubId": "59254ea0-fe13-4781-a668-0b5aaf342db3"
  },
  {
   "id": "north-foreland-golf-club",
@@ -369,7 +519,12 @@
   "bookingUrl": "https://northforeland.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://www.northforeland.co.uk/",
   "imageUrl": "https://www.northforeland.co.uk/wp-content/uploads/2025/04/North-Foreland-Golf-Club-01st-1000-scaled.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "CT10 3PU",
+  "greenFeeBaseline": 95.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "40ecf366-7979-4a3b-900d-84dad11a26d5"
  },
  {
   "id": "westerham-golf-club",
@@ -381,7 +536,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.westerhamgc.co.uk/",
   "imageUrl": "https://westerhamgc.co.uk/wp-content/uploads/2023/06/Westerham-Golf-Club-weddings_-241.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "TN16 1QN",
+  "greenFeeBaseline": 85.0,
+  "googleRating": null,
+  "ukGolfClubId": "437c94a2-438f-43a0-8d9d-3a0f04fd49bb"
  },
  {
   "id": "cranham-golf-course",
@@ -393,7 +553,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.cranhamgolfcourse.co.uk/",
   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Cranham_Golf_Course_-_geograph.org.uk_-_6150803.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "brentwood-golf-centre-at-hartswood",
@@ -405,7 +570,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.brentwood.gov.uk/index.php?cid=431",
   "imageUrl": "https://www.brentwood.gov.uk/sites/default/files/King%20George%27s%20Playing%20Fields%202.jpg",
-  "lastPlayed": "2025-10"
+  "lastPlayed": "2025-10",
+  "county": "Essex",
+  "postcode": "CM14 5AE",
+  "greenFeeBaseline": null,
+  "googleRating": 4.2,
+  "ukGolfClubId": "565e50b0-f686-40c9-89bc-b95826a96dec"
  },
  {
   "id": "highwoods-golf-club",
@@ -417,7 +587,12 @@
   "bookingUrl": null,
   "websiteUrl": "http://www.highwoodsgolfclub.co.uk/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/599/1eeb1f7768bc-course1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Sussex",
+  "postcode": "TN39 4EA",
+  "greenFeeBaseline": 90.0,
+  "googleRating": 4.9,
+  "ukGolfClubId": "867490a5-4e56-4f8c-9588-3a7818a027ce"
  },
  {
   "id": "park-wood-golf-club",
@@ -429,7 +604,12 @@
   "bookingUrl": "https://visitors.brsgolf.com/parkwood#/course/1",
   "websiteUrl": "https://www.parkwoodgolf.co.uk/",
   "imageUrl": "https://static.wixstatic.com/media/5f4cac_c20cb7a5602c4e9ab13e8812ff6ff359f000.jpg/v1/fill/w_239,h_134,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/5f4cac_c20cb7a5602c4e9ab13e8812ff6ff359f000.jpg",
-  "lastPlayed": "2026-05-17"
+  "lastPlayed": "2026-05-17",
+  "county": "Kent",
+  "postcode": "TN16 2EG",
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": "bea2e5de-9727-4932-9d0c-48cefada7491"
  },
  {
   "id": "stapleford-abbotts-priors-golf-course",
@@ -441,7 +621,12 @@
   "bookingUrl": "https://www.golfgenius.com/pages/7291921880615762947",
   "websiteUrl": "https://staplefordabbottsgolf.co.uk/",
   "imageUrl": "https://www.staplefordabbottsgolf.co.uk/wp-content/uploads/sites/8301/2025/03/Image-7.png",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "RM4 1JU",
+  "greenFeeBaseline": 42.0,
+  "googleRating": 4.1,
+  "ukGolfClubId": "875df9c1-a93e-4c2c-9547-f3ec5ad3bcb3"
  },
  {
   "id": "romford-golf-club",
@@ -453,7 +638,12 @@
   "bookingUrl": "https://www.romfordgolfclub.com/visitorbooking",
   "websiteUrl": "https://www.romfordgolfclub.com/",
   "imageUrl": "https://www.romfordgolfclub.com/images/thumbs/slideshow/romford/2000x1077/0-0-0-0/1/30_238.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "RM2 5QB",
+  "greenFeeBaseline": null,
+  "googleRating": 4.5,
+  "ukGolfClubId": "9a0baf9c-9b1a-4dcb-a858-21af4b24611c"
  },
  {
   "id": "saint-cleres-hall-golf-club",
@@ -465,7 +655,12 @@
   "bookingUrl": null,
   "websiteUrl": "http://stclereshallgolfclub.weebly.com/",
   "imageUrl": "https://stclereshallgolfclub.weebly.com/uploads/1/1/6/9/11694370/3113927.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "south-essex-golf-centre",
@@ -477,7 +672,12 @@
   "bookingUrl": "https://www.southessexgolf.co.uk/visitorbooking",
   "websiteUrl": "https://www.southessexgolf.co.uk/index.php",
   "imageUrl": "https://www.heroncountryclub.uk/images/thumbs/slideshow/southessex/2000x992/0-0-0-0/1/20_568.jpg",
-  "lastPlayed": "2026-08-30"
+  "lastPlayed": "2026-08-30",
+  "county": "Essex",
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": "64e01cc7-b148-4896-9ba8-7b454dff34ba"
  },
  {
   "id": "copthorne-golf-club",
@@ -489,7 +689,12 @@
   "bookingUrl": "https://www.copthornegolfclub.co.uk/visitorbooking",
   "websiteUrl": "https://www.copthornegolfclub.co.uk/",
   "imageUrl": "https://www.copthornegolfclub.co.uk/images/thumbs/slideshow/copthorne/2000x1075/0-0-0-0/1/1_1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "East Sussex",
+  "postcode": "RH10 3LL",
+  "greenFeeBaseline": 90.0,
+  "googleRating": null,
+  "ukGolfClubId": "7b512d22-979b-4c7e-a8fa-371569a7c527"
  },
  {
   "id": "addington-court-golf-club",
@@ -501,7 +706,12 @@
   "bookingUrl": "https://golf.addingtoncourt-golfclub.co.uk/visitorbooking/",
   "websiteUrl": "https://www.addingtoncourt-golfclub.co.uk/",
   "imageUrl": "https://addingtoncourt-golfclub.co.uk/wp-content/uploads/2026/07/addington-court-elevated-green-aerial.webp",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "CR0 9AA",
+  "greenFeeBaseline": null,
+  "googleRating": 4.1,
+  "ukGolfClubId": "60076612-7fe8-4551-a5d7-84a2ef7f318e"
  },
  {
   "id": "bentley-golf-course",
@@ -513,7 +723,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.bentleygolfclub.com/",
   "imageUrl": "https://bentleygolfclub.com/wp-content/uploads/2021/10/Hole-11-home.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "CM15 9SS",
+  "greenFeeBaseline": null,
+  "googleRating": 4.5,
+  "ukGolfClubId": "caa7c707-5fd0-420c-a13c-2ff225ecffc9"
  },
  {
   "id": "chartham-park",
@@ -525,7 +740,12 @@
   "bookingUrl": "https://golf.charthampark.com/visitorbooking/",
   "websiteUrl": "https://www.charthampark.com/",
   "imageUrl": null,
-  "lastPlayed": "2026-06-21"
+  "lastPlayed": "2026-06-21",
+  "county": "Sussex",
+  "postcode": "RH19 2JT",
+  "greenFeeBaseline": 123.5,
+  "googleRating": 4.2,
+  "ukGolfClubId": "a67983d2-1cdb-41a8-827f-6410bfc22f91"
  },
  {
   "id": "holtye-golf-club",
@@ -537,7 +757,12 @@
   "bookingUrl": "https://www.holtye.com/visitorbooking/",
   "websiteUrl": "https://www.holtye.com/",
   "imageUrl": "https://www.holtye.com/images/thumbs/slideshow/holtye/1500x849/0-0-0-0/1/1_21.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Kent",
+  "postcode": "TN8 7ED",
+  "greenFeeBaseline": 36.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "8c0fd622-e910-4926-86a4-b747c00615fc"
  },
  {
   "id": "reigate-heath",
@@ -549,7 +774,12 @@
   "bookingUrl": "https://members.reigateheathgc.com/visitorbooking/",
   "websiteUrl": "http://www.reigateheathgolfclub.co.uk/",
   "imageUrl": "https://www.reigateheathgc.com/uploads/large/group-2-1713956872.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "RH2 8QR",
+  "greenFeeBaseline": 70.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "1fdfa194-8e61-47c9-8271-8d74444b744f"
  },
  {
   "id": "the-addington-golf-club",
@@ -561,7 +791,12 @@
   "bookingUrl": "https://www.golfgenius.com/pages/12123160053263933687",
   "websiteUrl": "https://addingtongolf.com/",
   "imageUrl": "https://cdn.shortpixel.ai/spai/w_1920+q_lossy+ret_img+to_webp/addingtongolf.com/wp-content/uploads/2023/09/Vision-v5-scaled-1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "CR0 5AB",
+  "greenFeeBaseline": 175.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "0d2458eb-8d6d-49bc-890d-d724b449b82a"
  },
  {
   "id": "weald-park-hotel-golf-and-country-club",
@@ -573,7 +808,12 @@
   "bookingUrl": "https://www.brsgolf.com/brentwood/visitor_home.php?framed=false",
   "websiteUrl": "https://www.brentwoodgolfclub.co.uk/",
   "imageUrl": "https://www.brentwoodgolfclub.co.uk/files/621/images/home/home1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "CM14 5QS",
+  "greenFeeBaseline": null,
+  "googleRating": 4.7,
+  "ukGolfClubId": "328e26aa-96ec-44a7-ab04-1261c908a43e"
  },
  {
   "id": "basildon-golf-course",
@@ -585,7 +825,12 @@
   "bookingUrl": "https://basildon.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://basildongolfcourse.com/",
   "imageUrl": "https://basildongolfcourse.com/sites/default/files/slider/green-back.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "SS16 5JP",
+  "greenFeeBaseline": 39.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "1b38fbf1-b50b-49b5-81c9-4e07c3c8a6f0"
  },
  {
   "id": "horam-park-golf-club",
@@ -597,7 +842,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://horamparkgolfclub.co.uk/",
   "imageUrl": "https://www.horamparkgolfclub.co.uk/images/dsc00626.webp",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "East Sussex",
+  "postcode": "TN21 0JJ",
+  "greenFeeBaseline": 40.0,
+  "googleRating": 4.3,
+  "ukGolfClubId": "be5e1a06-f695-4b3e-8024-654cce8c56ae"
  },
  {
   "id": "wellshurst-golf-and-country-club",
@@ -609,7 +859,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.wellshurst.com/",
   "imageUrl": "https://wellshurst.com/wp-content/uploads/2018/06/7th-Water-Hole.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Sussex",
+  "postcode": "BN27 4ED",
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": "b74cc68e-e142-438b-838e-261a14b2cf20"
  },
  {
   "id": "risebridge-golf-centre",
@@ -621,7 +876,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.risebridgegolf.com/",
   "imageUrl": "https://risebridgegolf.com/wp-content/uploads/RisebridgeClubhouse-915x686.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "RM1 4DG",
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": "066cd19a-b83d-407b-ac9b-f1543e84cf6d"
  },
  {
   "id": "sweetwoods-park-golf-club",
@@ -633,7 +893,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.sweetwoodspark.com/",
   "imageUrl": "https://sweetwoods.co.uk/wp-content/uploads/2026/02/Sweetwoods-18th-AR505044-scaled-640x480.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Sussex",
+  "postcode": "TN8 7AY",
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": "6e8a1b90-35eb-4510-91a9-e253524586f0"
  },
  {
   "id": "farleigh-golf-club",
@@ -645,7 +910,12 @@
   "bookingUrl": "https://farleigh.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://www.farleighfox.co.uk/",
   "imageUrl": "https://www.farleighfox.co.uk/media/mrdf11kr/3.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "CR6 9PE",
+  "greenFeeBaseline": 70.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "9f84ba31-3ac4-4f6f-84ca-8c6aa4eeea82"
  },
  {
   "id": "ilford-golf-club",
@@ -657,7 +927,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.ilfordgolfclub.co.uk/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/606/ec5619ee0fde-front-9-aerial_south-2_dj.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "lingfield-park-golf-course",
@@ -669,7 +944,12 @@
   "bookingUrl": "https://visitors.brsgolf.com/lingfield",
   "websiteUrl": "https://www.lingfieldpark.co.uk/golf/",
   "imageUrl": "https://www.lingfieldpark.co.uk/LingfieldPark/images/upload/182168bf-59e6-4921-b31e-7ed2c56f4ee3.jpg",
-  "lastPlayed": "2021-04"
+  "lastPlayed": "2021-04",
+  "county": "Surrey",
+  "postcode": "RH7 6PQ",
+  "greenFeeBaseline": 90.0,
+  "googleRating": 4.0,
+  "ukGolfClubId": "63ba7ee7-2fdb-4f18-9877-40af56313f6f"
  },
  {
   "id": "stapleford-abbotts-golf-course",
@@ -681,7 +961,12 @@
   "bookingUrl": "https://www.golfgenius.com/pages/7291921880615762947",
   "websiteUrl": "https://staplefordabbottsgolf.co.uk/",
   "imageUrl": "https://www.staplefordabbottsgolf.co.uk/wp-content/uploads/sites/8301/2025/03/Image-7.png",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "RM4 1JU",
+  "greenFeeBaseline": 42.0,
+  "googleRating": 4.1,
+  "ukGolfClubId": "875df9c1-a93e-4c2c-9547-f3ec5ad3bcb3"
  },
  {
   "id": "cuddington-golf-course",
@@ -693,7 +978,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.cuddingtongc.co.uk/",
   "imageUrl": "https://www.cuddingtongc.co.uk/images/thumbs/slideshow/cuddington/2000x1077/0-0-0-0/1/34_117.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "SM7 1RD",
+  "greenFeeBaseline": 82.5,
+  "googleRating": 4.6,
+  "ukGolfClubId": "6e39599e-ae19-43bd-a424-85f9aba69717"
  },
  {
   "id": "chelmsford-golf-course",
@@ -705,7 +995,12 @@
   "bookingUrl": "https://chelmsford.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://www.chelmsfordgc.co.uk/",
   "imageUrl": "https://www.chelmsfordgc.co.uk/wp-content/uploads/2022/06/hero-home.webp",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "CM2 9AP",
+  "greenFeeBaseline": null,
+  "googleRating": 4.6,
+  "ukGolfClubId": "f6c1db9d-140b-4b7a-8ace-2334555b98b8"
  },
  {
   "id": "cottesmore-hotel-golf-country-club",
@@ -717,7 +1012,12 @@
   "bookingUrl": "https://visitors.brsgolf.com/bulburywoods#/course/1",
   "websiteUrl": "https://www.cottesmoregolf.co.uk/",
   "imageUrl": null,
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Sussex",
+  "postcode": "RH11 9AT",
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": "852f6ded-c5b2-4de8-b9ee-053eb590441e"
  },
  {
   "id": "ashdown-park",
@@ -729,7 +1029,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.ashdownpark.com/sussex-golf-course",
   "imageUrl": "https://www.ashdownpark.com/sites/default/files/styles/booking_overlay_desktop/public/images/Ashdown-pt2-17.jpeg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "claremont-park-golf-course",
@@ -741,7 +1046,12 @@
   "bookingUrl": null,
   "websiteUrl": "http://www.chea.co.uk/",
   "imageUrl": "https://www.chea.co.uk/cpgc.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "hobbs-cross-golf-centre",
@@ -753,7 +1063,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.hobbscrossgolfcentre.com/",
   "imageUrl": "https://cloudfront.sketchanet.com/u/962796/images/1920/1710094668image00080.jpeg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "mitcham-golf-club",
@@ -765,7 +1080,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.mitchamgolfcourse.co.uk/",
   "imageUrl": "https://mitchamgolfcourse.co.uk/wp-content/uploads/2022/10/golf-course-480x360.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "CR4 4HN",
+  "greenFeeBaseline": 45.0,
+  "googleRating": 4.3,
+  "ukGolfClubId": "8d51908d-6ac3-4042-a1cb-c1754e56fe2c"
  },
  {
   "id": "piltdown-golf-club",
@@ -777,7 +1097,12 @@
   "bookingUrl": "https://www.piltdowngolfclub.co.uk/visitorbooking",
   "websiteUrl": "https://www.piltdowngolfclub.co.uk/",
   "imageUrl": "https://www.piltdowngolfclub.co.uk/images/thumbs/slideshow/piltdown/2000x974/0-0-0-0/1/1_44.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "East Sussex",
+  "postcode": "TN22 3XB",
+  "greenFeeBaseline": null,
+  "googleRating": 4.5,
+  "ukGolfClubId": "093d273f-759c-4551-a5fc-6105fae8cad8"
  },
  {
   "id": "rookwood-golf-course",
@@ -789,7 +1114,12 @@
   "bookingUrl": "https://rookwood.intelligentgolf.co.uk/visitorbooking",
   "websiteUrl": "https://www.rookwoodgolf.co.uk/",
   "imageUrl": "https://rookwoodgolf.co.uk/wp-content/uploads/2026/09/2026-Xmas-Promo-Banner-scaled.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Sussex",
+  "postcode": "RH12 3RR",
+  "greenFeeBaseline": 30.0,
+  "googleRating": 4.3,
+  "ukGolfClubId": "3d4925d1-bc3f-4fe6-8f38-f3b08bf6159f"
  },
  {
   "id": "woolston-manor-golf-country-club",
@@ -801,7 +1131,12 @@
   "bookingUrl": "https://visitors.brsgolf.com/woolstonmanor#/course/1",
   "websiteUrl": "https://www.woolstonmanor.co.uk/",
   "imageUrl": "https://static.wixstatic.com/media/d6ca3f_8147abefa4664702baf1481f2c27e4a6~mv2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/d6ca3f_8147abefa4664702baf1481f2c27e4a6~mv2.jpg",
-  "lastPlayed": "2022-01"
+  "lastPlayed": "2022-01",
+  "county": "Essex",
+  "postcode": "IG7 6BX",
+  "greenFeeBaseline": null,
+  "googleRating": 4.2,
+  "ukGolfClubId": "bae74cf8-4e50-4b78-aabb-7630ef6f6764"
  },
  {
   "id": "chigwell-golf-club",
@@ -813,7 +1148,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.chigwellgolfclub.co.uk/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/49/5d521838c84e-entrance%20foyer%20to%20bar.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "IG7 5BH",
+  "greenFeeBaseline": null,
+  "googleRating": 4.4,
+  "ukGolfClubId": "b8fe738f-8e27-4f1d-b5b3-670c83653507"
  },
  {
   "id": "the-wisley",
@@ -825,7 +1165,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.thewisley.com",
   "imageUrl": "https://www.thewisley.com/wp-content/uploads/2018/04/TheWisley25_001.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "GU23 6QU",
+  "greenFeeBaseline": null,
+  "googleRating": 4.8,
+  "ukGolfClubId": "78d83403-f8b8-4285-b628-5608920e6831"
  },
  {
   "id": "willingdon-golf-club",
@@ -837,7 +1182,12 @@
   "bookingUrl": "https://willingdon.hub.clubv1.com/visitors/booking/",
   "websiteUrl": "https://www.willingdongolfclub.co.uk/",
   "imageUrl": "https://static1.squarespace.com/static/6830fb6dde1da42743eafc93/t/6833040b1b6e2719d4a384eb/1748173835173/Willingdon+Golf+Club.png?format=1500w",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Sussex",
+  "postcode": "BN20 9AA",
+  "greenFeeBaseline": null,
+  "googleRating": 4.5,
+  "ukGolfClubId": "72631203-c72e-4215-8e2a-f71716b7e2de"
  },
  {
   "id": "blakes-golf-course",
@@ -849,7 +1199,12 @@
   "bookingUrl": "https://visitors.brsgolf.com/blakes#/course/1",
   "websiteUrl": "https://www.blakesgolfclub.com/",
   "imageUrl": "https://www.blakesgolfclub.com/wp-content/uploads/sites/5189/2015/09/917DAC04-C231-47D5-B069-3E010066EA6B.jpeg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "CM16 6RZ",
+  "greenFeeBaseline": null,
+  "googleRating": 3.5,
+  "ukGolfClubId": "734a14a8-5bed-4d22-9319-619eace50637"
  },
  {
   "id": "crondon-park-golf-country-club",
@@ -861,7 +1216,12 @@
   "bookingUrl": null,
   "websiteUrl": "http://www.crondon.com/",
   "imageUrl": "https://www.crondonpark.com/wp-content/uploads/2023/12/vhome2023-poster.jpg",
-  "lastPlayed": "2026-07-26"
+  "lastPlayed": "2026-07-26",
+  "county": "Essex",
+  "postcode": "CM4 9DP",
+  "greenFeeBaseline": null,
+  "googleRating": 4.4,
+  "ukGolfClubId": "b9aeace5-69c3-4980-9a77-038c03d36998"
  },
  {
   "id": "epping-golf-course",
@@ -873,7 +1233,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.eppinggolfcourse.org.uk/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/2399/6b7ad468ea62.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "CM16 7PE",
+  "greenFeeBaseline": 30.0,
+  "googleRating": 4.4,
+  "ukGolfClubId": "7f41652d-5339-4d68-8d51-e1f13243511d"
  },
  {
   "id": "surbiton-golf-club",
@@ -885,7 +1250,12 @@
   "bookingUrl": "https://visitors.brsgolf.com/surbiton#/course/1",
   "websiteUrl": "https://www.surbitongolfclub.com/",
   "imageUrl": "https://static.wixstatic.com/media/569b60_d796440e5dfe403ca7bfe67f46f703e0%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/569b60_d796440e5dfe403ca7bfe67f46f703e0%7Emv2.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "KT9 1UG",
+  "greenFeeBaseline": null,
+  "googleRating": 4.5,
+  "ukGolfClubId": "d3ba7ef0-f63a-4206-972d-fbe7fc001732"
  },
  {
   "id": "thames-ditton-and-esher-golf-club",
@@ -897,7 +1267,12 @@
   "bookingUrl": "https://visitors.brsgolf.com/thames#/course/1",
   "websiteUrl": "https://thamesdittonandeshergolfclub.com/",
   "imageUrl": "https://thamesdittonandeshergolfclub.com/wp-content/uploads/2024/01/IMG_0150-1-rotated.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "KT10 9AL",
+  "greenFeeBaseline": null,
+  "googleRating": 4.1,
+  "ukGolfClubId": "a91419bb-c95e-4df6-88b6-6a09a8170d7d"
  },
  {
   "id": "the-royal-eastbourne-golf-club",
@@ -909,7 +1284,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.regc.co.uk/",
   "imageUrl": "https://www.regc.co.uk/images/thumbs/slideshow/royaleastbourne/2010x1207/10-0-7-0/1/7_187.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "East Sussex",
+  "postcode": "BN20 8BP",
+  "greenFeeBaseline": null,
+  "googleRating": 4.6,
+  "ukGolfClubId": "acc83bc2-c4c9-4758-8c20-8995ab3106b9"
  },
  {
   "id": "three-rivers-golf-country-club",
@@ -921,7 +1301,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.threeriversclub.com/",
   "imageUrl": "https://threeriversclub.com/wp-content/uploads/2025/01/three-river-home-banner-img-V1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "CM3 6RR",
+  "greenFeeBaseline": 47.0,
+  "googleRating": 4.4,
+  "ukGolfClubId": "3919bc0a-d8ad-4371-8d06-27f6a4d1bc79"
  },
  {
   "id": "twisted-stone-golf-course",
@@ -933,7 +1318,12 @@
   "bookingUrl": "https://visitors.brsgolf.com/twistedstonegc#/course/1",
   "websiteUrl": "https://www.twistedstonegc.com/",
   "imageUrl": "https://static.wixstatic.com/media/fe4a32_8aaf286ad9bb4bee953ae16b53060070%7Emv2.png/v1/fit/w_2500,h_1330,al_c/fe4a32_8aaf286ad9bb4bee953ae16b53060070%7Emv2.png",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "hersham-golf-club",
@@ -945,7 +1335,12 @@
   "bookingUrl": null,
   "websiteUrl": "http://www.hershamgolf.com/",
   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hersham_Village_Golf_Club_-_The_5th_-_geograph.org.uk_-_1101086.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "KT12 4RA",
+  "greenFeeBaseline": 36.5,
+  "googleRating": 4.3,
+  "ukGolfClubId": "e75808ca-4896-4491-8f81-81cb9a7fcdee"
  },
  {
   "id": "clandon-golf",
@@ -957,7 +1352,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.clandongolf.co.uk/",
   "imageUrl": "https://www.clandongolf.co.uk/wp-content/uploads/2020/09/image4.jpeg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "garon-park-golf-complex",
@@ -969,7 +1369,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.garonparkgolf.co.uk/",
   "imageUrl": "https://garonparkgolf.co.uk/wp-content/uploads/2025/01/Garon-Park-Home-1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "SS2 4FA",
+  "greenFeeBaseline": null,
+  "googleRating": 4.2,
+  "ukGolfClubId": "392953aa-cb86-45c8-9bc6-1cefa5b09637"
  },
  {
   "id": "canons-brook-golf-course",
@@ -981,7 +1386,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.canonsbrook.com/",
   "imageUrl": "https://www.canonsbrook.com/wp-content/uploads/2022/03/The-Brook-600x600-2-250x250.png",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "CM19 5BE",
+  "greenFeeBaseline": null,
+  "googleRating": 4.5,
+  "ukGolfClubId": "ca390fab-8309-4fa7-b206-f7dad7599b9f"
  },
  {
   "id": "pyecombe-golf-course",
@@ -993,7 +1403,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.pyecombegolfclub.com/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/226/117084b5e488-24.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Sussex",
+  "postcode": "BN45 7FF",
+  "greenFeeBaseline": null,
+  "googleRating": 4.5,
+  "ukGolfClubId": "8c7d2da3-189b-4c41-aa15-2ae1b900fca3"
  },
  {
   "id": "coombe-wood-golf-course",
@@ -1005,7 +1420,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.coombewoodgolf.com/",
   "imageUrl": "https://www.coombewoodgolf.com/images/thumbs/slideshow/coombewood/2000x1101/0-0-0-0/1/58_269.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "KT2 7NS",
+  "greenFeeBaseline": 50.0,
+  "googleRating": 4.4,
+  "ukGolfClubId": "56879920-4fb4-412c-8da9-257db351f5cb"
  },
  {
   "id": "nazeing-golf-club",
@@ -1017,7 +1437,12 @@
   "bookingUrl": "http://www.nazeinggolfclub.co.uk/teetimes/",
   "websiteUrl": "https://www.nazeinggolfclub.co.uk/",
   "imageUrl": "https://www.nazeinggolfclub.co.uk/wp-content/uploads/sites/2901/2023/09/GROUP7A.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "EN9 2LW",
+  "greenFeeBaseline": null,
+  "googleRating": 4.3,
+  "ukGolfClubId": "bbcf33ee-5756-485d-9c38-820af510d816"
  },
  {
   "id": "singing-hills-golf-course",
@@ -1029,7 +1454,12 @@
   "bookingUrl": "http://www.singinghills.co.uk/intelligentgolfpay",
   "websiteUrl": "http://www.singinghills.co.uk/",
   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Nesting_Swan%2C_Singing_Hills_Golf_Course_-_geograph.org.uk_-_1305878.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Sussex",
+  "postcode": "BN6 9EB",
+  "greenFeeBaseline": 40.0,
+  "googleRating": null,
+  "ukGolfClubId": "10928c12-a981-4884-94af-dfd81da40a53"
  },
  {
   "id": "ashford-manor-golf-club",
@@ -1041,7 +1471,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.amgc.co.uk/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/434/757ddf8aad5f-w1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "London",
+  "postcode": "TW15 3RT",
+  "greenFeeBaseline": 105.0,
+  "googleRating": 4.4,
+  "ukGolfClubId": "82f42e1e-908b-4636-a095-9c0b7466dc4d"
  },
  {
   "id": "broxbourne-par-3-golf-club",
@@ -1053,7 +1488,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.broxbournegolf.co.uk/",
   "imageUrl": "https://static.wixstatic.com/media/f8a530_345e51d289af45cd8b70a77e9a5699a5~mv2.jpg/v1/fill/w_600,h_600,al_c/f8a530_345e51d289af45cd8b70a77e9a5699a5~mv2.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "slinfold-park-golf-and-country-club",
@@ -1065,7 +1505,12 @@
   "bookingUrl": "https://www.slinfoldclub.co.uk/visitorbooking",
   "websiteUrl": "https://www.slinfoldclub.co.uk/",
   "imageUrl": "https://slinfold.designmode.intelligentgolf.co.uk/images/thumbs/sites/slinfold/Redesign%202026/940x0/1/Golf_SQ%20copy.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Sussex",
+  "postcode": "RH13 0RE",
+  "greenFeeBaseline": null,
+  "googleRating": 4.4,
+  "ukGolfClubId": "db76e7af-9365-4589-ae08-898da745933c"
  },
  {
   "id": "the-manor-of-groves-golf-course",
@@ -1077,7 +1522,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.manorofgroves.com/",
   "imageUrl": "https://images.squarespace-cdn.com/content/v1/6867bd8c25136c3ec26bd0ee/e6e41185-03e1-4ce6-8458-0644988a5f54/68727350_2662933230404120_5138064557251493888_n.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Hertfordshire",
+  "postcode": "CM21 0JU",
+  "greenFeeBaseline": 39.5,
+  "googleRating": 4.1,
+  "ukGolfClubId": "439dbc88-01b6-4ed8-b962-e4c619a9468a"
  },
  {
   "id": "old-fold-manor-golf-course",
@@ -1089,7 +1539,12 @@
   "bookingUrl": "https://www.oldfoldmanor.co.uk/visitorbooking",
   "websiteUrl": "https://www.oldfoldmanor.co.uk/",
   "imageUrl": "https://www.oldfoldmanor.co.uk/images/resources/oldfoldmanor/new-ts-admin.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Hertfordshire",
+  "postcode": "EN5 4QN",
+  "greenFeeBaseline": null,
+  "googleRating": 4.3,
+  "ukGolfClubId": "0788fc05-f730-4816-a928-02a0e1e61840"
  },
  {
   "id": "sunbury-golf",
@@ -1101,7 +1556,12 @@
   "bookingUrl": "https://golf.sunburygolf.co.uk/visitorbooking/",
   "websiteUrl": "https://sunburygolf.co.uk/",
   "imageUrl": "https://sunburygolf.co.uk/wp-content/uploads/2026/07/sunbury-golf-course-hole-aerial.webp",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "TW17 8QA",
+  "greenFeeBaseline": null,
+  "googleRating": 4.0,
+  "ukGolfClubId": "0e9f403b-7284-44f6-9dc7-e079d9ea7224"
  },
  {
   "id": "west-hill-golf-club",
@@ -1113,7 +1573,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.westhillgc.co.uk/",
   "imageUrl": "https://www.westhillgc.co.uk/images/thumbs/slideshow/westhill/2000x1121/0-0-0-0/1/56_626.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "GU24 0BH",
+  "greenFeeBaseline": null,
+  "googleRating": 4.7,
+  "ukGolfClubId": "a0d12f9e-3081-4011-a5ac-9e791988ef7f"
  },
  {
   "id": "fulwell-golf-club",
@@ -1125,7 +1590,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.fulwellgolfclub.co.uk/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/1128/c33e5b99d074-fullwell-drone-28.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "TW12 1JY",
+  "greenFeeBaseline": 90.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "f69ac684-0091-4247-bd60-61d9ba12d439"
  },
  {
   "id": "three-lakes-golf-course",
@@ -1137,7 +1607,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://threelakespar3.co.uk/",
   "imageUrl": "https://threelakespar3.co.uk/wp-content/uploads/2025/07/Footgolf1-300x202.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "wimbledon-common-golf-club-london-scottish-golf-club",
@@ -1149,7 +1624,12 @@
   "bookingUrl": "https://clubnet.golfgraffix.com/Booking/visitors/visitors_booking.html?clubid=Y81VYR-11366-47481",
   "websiteUrl": "https://www.wcgc.co.uk/",
   "imageUrl": "https://www.wcgc.co.uk/uploads/1/5/1/2/151258178/img1_orig.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "SW19 4UW",
+  "greenFeeBaseline": 40.0,
+  "googleRating": 4.4,
+  "ukGolfClubId": "ea71e12b-782e-4d3f-b88c-d67357a1d047"
  },
  {
   "id": "windlesham-golf-club",
@@ -1161,7 +1641,12 @@
   "bookingUrl": "https://windleshamgolf.clubhouseonline-e3.com/PublicTeeTimes/TeeSheet.aspx",
   "websiteUrl": "https://www.windleshamgolf.com/",
   "imageUrl": "https://www.windleshamgolf.com/wp-content/uploads/2022/09/Windlesham-Home-explore-1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "GU19 5HY",
+  "greenFeeBaseline": 50.0,
+  "googleRating": 4.6,
+  "ukGolfClubId": "8775418b-ef76-448b-8cc4-fd32184fed51"
  },
  {
   "id": "datchet-golf-club",
@@ -1173,7 +1658,12 @@
   "bookingUrl": "https://www.datchetgolfclub.co.uk/visitors-tee-time/green-fees/",
   "websiteUrl": "https://www.datchetgolfclub.co.uk/",
   "imageUrl": "https://www.datchetgolfclub.co.uk/wp-content/uploads/sites/6698/2017/11/CASTLE-PICTURE-300x200.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Buckinghamshire",
+  "postcode": "SL3 9BP",
+  "greenFeeBaseline": null,
+  "googleRating": 4.2,
+  "ukGolfClubId": "106008d7-e501-49ab-9ba8-dd3dedbd020a"
  },
  {
   "id": "roehampton-club-golf-course",
@@ -1185,7 +1675,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.roehamptonclub.co.uk/",
   "imageUrl": "https://www.roehamptonclub.co.uk/propeller/uploads/2025/05/IMG_6063-e1746707354518.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "SW15 5LR",
+  "greenFeeBaseline": null,
+  "googleRating": 4.6,
+  "ukGolfClubId": "343071d5-d6d8-4ff1-9b21-706282753510"
  },
  {
   "id": "the-berkshire-golf-club",
@@ -1197,7 +1692,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.theberkshire.co.uk/",
   "imageUrl": "https://www.theberkshire.co.uk/images/resources/theberkshire/the-berkshire-hires-ts.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Buckinghamshire",
+  "postcode": "SL5 8AY",
+  "greenFeeBaseline": 380.0,
+  "googleRating": 4.8,
+  "ukGolfClubId": "4d49710c-6039-4f3c-aba0-94f086a926c2"
  },
  {
   "id": "dyke-golf-club",
@@ -1209,7 +1709,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://dykegolfclub.co.uk/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/1553/18f0e8d31183-17th-1.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Sussex",
+  "postcode": "BN1 8YJ",
+  "greenFeeBaseline": 60.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "b7c48286-fe34-4543-9d1b-3b2f434bf53c"
  },
  {
   "id": "essendon-country-club",
@@ -1221,7 +1726,12 @@
   "bookingUrl": "https://www.essendoncc.co.uk/visitorbooking",
   "websiteUrl": "https://www.essendoncc.co.uk/contact",
   "imageUrl": "https://www.essendoncc.co.uk/images/thumbs/slideshow/essendon/2000x1077/0-0-0-0/1/62_380.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Hertfordshire",
+  "postcode": "AL9 6HN",
+  "greenFeeBaseline": 57.5,
+  "googleRating": 4.6,
+  "ukGolfClubId": "42d43e1d-52eb-4297-962e-76002c0993dc"
  },
  {
   "id": "great-hadham-golf-course",
@@ -1233,7 +1743,12 @@
   "bookingUrl": "https://www.greathadham.co.uk/golf-courses-at-great-hadham/book-a-tee/",
   "websiteUrl": "https://www.greathadham.co.uk/",
   "imageUrl": "https://www.greathadham.co.uk/wp-content/uploads/2024/08/20240806_131835-scaled.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Hertfordshire",
+  "postcode": "SG10 6JE",
+  "greenFeeBaseline": null,
+  "googleRating": 4.4,
+  "ukGolfClubId": "e5464967-3ed5-4909-a90e-dc3ba15f8062"
  },
  {
   "id": "north-middlesex-golf-club",
@@ -1245,7 +1760,12 @@
   "bookingUrl": "https://northmiddlesex.hub.clubv1.com/visitors/booking",
   "websiteUrl": "https://www.northmiddlesexgc.co.uk/",
   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/North_Middlesex_Golf_Club_01.jpg/960px-North_Middlesex_Golf_Club_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Middlesex",
+  "postcode": "N20 0NL",
+  "greenFeeBaseline": null,
+  "googleRating": 4.4,
+  "ukGolfClubId": "dd421fcb-a535-49e3-a21e-36c142093bc8"
  },
  {
   "id": "burnham-on-crouch-golf-club",
@@ -1257,7 +1777,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://www.burnhamgolfclub.co.uk/",
   "imageUrl": "https://clubv1.blob.core.windows.net/clubsite-media/1384/9ba3faf2b3dc-2012-07-12-11.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Essex",
+  "postcode": "CM0 8PQ",
+  "greenFeeBaseline": null,
+  "googleRating": 4.6,
+  "ukGolfClubId": "a5f8c65a-5dc0-427f-904c-e34eeaac549f"
  },
  {
   "id": "brighton-hove-golf-club",
@@ -1269,7 +1794,12 @@
   "bookingUrl": "https://brighton.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://www.brightongolf.co.uk/",
   "imageUrl": "https://www.brightongolf.co.uk/images/resources/brighton/tssmall-brighton.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Brighton and Hove",
+  "postcode": "BN1 8YJ",
+  "greenFeeBaseline": 48.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "bffec306-31de-4677-b8a9-53c2eee99f56"
  },
  {
   "id": "iver-golf-club",
@@ -1281,7 +1811,12 @@
   "bookingUrl": "https://visitors.brsgolf.com/iver",
   "websiteUrl": "http://www.ivergolfclub.co.uk/",
   "imageUrl": null,
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Buckinghamshire",
+  "postcode": "SL0 0JJ",
+  "greenFeeBaseline": null,
+  "googleRating": 3.5,
+  "ukGolfClubId": "496a5d2f-21e3-4cde-8e0a-2e3960295124"
  },
  {
   "id": "porters-park-golf-club",
@@ -1293,7 +1828,12 @@
   "bookingUrl": "https://www.portersparkgolfclub.co.uk/visitorbooking",
   "websiteUrl": "https://www.portersparkgolfclub.co.uk/",
   "imageUrl": "https://www.portersparkgolfclub.co.uk/images/thumbs/slideshow/porterspark/1000x500/0-0-0-0/1/68_167.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Hertfordshire",
+  "postcode": "WD7 7AZ",
+  "greenFeeBaseline": 110.0,
+  "googleRating": 4.6,
+  "ukGolfClubId": "dd20cbce-f274-4e34-8a15-341c1350119f"
  },
  {
   "id": "the-shire-london",
@@ -1305,7 +1845,12 @@
   "bookingUrl": "https://theshirelondon.com/book-tee-time/",
   "websiteUrl": "https://theshirelondon.com/",
   "imageUrl": "https://theshirelondon.com/wp-content/uploads/TheShire_WebImage.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Hertfordshire",
+  "postcode": "EN5 4RE",
+  "greenFeeBaseline": 40.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "bfc4a49e-d6c9-42be-9dd3-8b155639d936"
  },
  {
   "id": "ash-valley-golf-club",
@@ -1317,7 +1862,12 @@
   "bookingUrl": "https://visitors.brsgolf.com/ashvalley",
   "websiteUrl": "https://www.ashvalley.co.uk/",
   "imageUrl": "https://static.wixstatic.com/media/2dd7a6_2674b8e573ac48c0adb631eac50920d2.jpg/v1/fit/w_2500,h_1330,al_c/2dd7a6_2674b8e573ac48c0adb631eac50920d2.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Hertfordshire",
+  "postcode": "SG10 6HD",
+  "greenFeeBaseline": 30.0,
+  "googleRating": 4.0,
+  "ukGolfClubId": "f94b07e9-9423-4f7c-b008-862a6d309fe7"
  },
  {
   "id": "hampstead-golf-club",
@@ -1329,7 +1879,12 @@
   "bookingUrl": "https://hampsteadgc.hub.clubv1.com/visitors/booking/",
   "websiteUrl": "https://www.hampsteadgolfclub.co.uk/",
   "imageUrl": "https://hampsteadgolfclub.co.uk/wp-content/uploads/2020/07/HGC-6th-Hole-Drama-HERO-scaled.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "London",
+  "postcode": "N2 0TU",
+  "greenFeeBaseline": null,
+  "googleRating": 4.4,
+  "ukGolfClubId": "9447f221-a424-4341-9b5d-4dc7474357bf"
  },
  {
   "id": "royal-ascot-golf-club",
@@ -1341,7 +1896,12 @@
   "bookingUrl": "https://royalascot.intelligentgolf.co.uk/visitorbooking/",
   "websiteUrl": "https://www.royalascotgolfclub.co.uk/",
   "imageUrl": "https://www.royalascotgolfclub.co.uk/wp-content/themes/awsite/build/static/img/menu-overlay.webp",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Berkshire",
+  "postcode": "SL5 7LJ",
+  "greenFeeBaseline": null,
+  "googleRating": 4.4,
+  "ukGolfClubId": "d1447f6f-36f6-4996-965f-e09fe9d88e85"
  },
  {
   "id": "welwyn-garden-city-golf-club",
@@ -1353,7 +1913,12 @@
   "bookingUrl": "https://clubnet.golfgraffix.com/Booking/visitors/visitors_booking.html?clubid=3BCJVV-64111-43418",
   "websiteUrl": "https://www.welwyngardencitygolfclub.co.uk/",
   "imageUrl": null,
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Hertfordshire",
+  "postcode": "AL8 7BP",
+  "greenFeeBaseline": 65.0,
+  "googleRating": 4.5,
+  "ukGolfClubId": "dcabe49b-45f3-43c2-a46e-5f4b6a8f74a6"
  },
  {
   "id": "metro-golf-centre",
@@ -1365,7 +1930,12 @@
   "bookingUrl": null,
   "websiteUrl": "https://metrogolfcentre.co.uk/",
   "imageUrl": "https://justgolfnorthlondon.com/wp-content/uploads/2026/06/North-London-11.webp",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": null,
+  "postcode": null,
+  "greenFeeBaseline": null,
+  "googleRating": null,
+  "ukGolfClubId": null
  },
  {
   "id": "mill-ride-golf-country-club",
@@ -1377,7 +1947,12 @@
   "bookingUrl": "https://www.mill-ride.com/visitorbooking",
   "websiteUrl": "https://www.mill-ride.com/",
   "imageUrl": "https://www.maidenheadgolf.co.uk/images/thumbs/slideshow/millride/2000x600/0-0-0-0/1/55_265.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Buckinghamshire",
+  "postcode": "SL5 8LT",
+  "greenFeeBaseline": null,
+  "googleRating": 4.4,
+  "ukGolfClubId": "ad5392c1-8e3e-48cd-84ef-2a8055b2066e"
  },
  {
   "id": "the-richmond-golf-club",
@@ -1389,6 +1964,11 @@
   "bookingUrl": "https://therichmond.hub.clubv1.com/visitors/booking/",
   "websiteUrl": "https://www.therichmondgolfclub.com/",
   "imageUrl": "https://sudbrookpark.co.uk/wp-content/uploads/2023/10/bride-and-groom-drive--300x125.jpg",
-  "lastPlayed": null
+  "lastPlayed": null,
+  "county": "Surrey",
+  "postcode": "TW10 7AS",
+  "greenFeeBaseline": null,
+  "googleRating": 5.0,
+  "ukGolfClubId": "d4e06632-9e8f-4ee3-8352-4ec42b6e81be"
  }
 ]

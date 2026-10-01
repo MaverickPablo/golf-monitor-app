@@ -25,7 +25,12 @@ object SeedData {
         val bookingUrl: String?,
         val websiteUrl: String?,
         val imageUrl: String?,
-        val lastPlayed: String?
+        val lastPlayed: String?,
+        val county: String? = null,
+        val postcode: String? = null,
+        val greenFeeBaseline: Double? = null,
+        val googleRating: Double? = null,
+        val ukGolfClubId: String? = null
     )
 
     fun parseCourses(json: String): List<CourseEntity> {
@@ -35,17 +40,19 @@ object SeedData {
             CourseEntity(
                 id = it.id,
                 name = it.name,
-                county = "",
+                county = it.county ?: "",
                 latitude = it.latitude,
                 longitude = it.longitude,
-                postcode = "",
-                greenFeeBaseline = null,
+                postcode = it.postcode ?: "",
+                greenFeeBaseline = it.greenFeeBaseline,
                 driveMinutes = it.driveMinutes,
                 bookingSystem = it.bookingSystem,
                 bookingUrl = it.bookingUrl,
                 websiteUrl = it.websiteUrl,
                 imageUrl = it.imageUrl,
-                lastPlayed = it.lastPlayed
+                lastPlayed = it.lastPlayed,
+                googleRating = it.googleRating,
+                ukGolfClubId = it.ukGolfClubId
             )
         }
     }

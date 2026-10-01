@@ -14,7 +14,7 @@ object DealDatabaseProvider {
                 DealDatabase::class.java,
                 "golf_monitor_db"
             )
-                .addMigrations(DealDatabase.MIGRATION_2_3, DealDatabase.MIGRATION_3_4)
+                .addMigrations(DealDatabase.MIGRATION_2_3, DealDatabase.MIGRATION_3_4, DealDatabase.MIGRATION_4_5)
                 .fallbackToDestructiveMigration()
                 .build()
                 .also { instance = it }

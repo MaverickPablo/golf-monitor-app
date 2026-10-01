@@ -9,20 +9,16 @@ import java.util.concurrent.TimeUnit
 import com.golfmonitor.config.AppConfig
 import com.golfmonitor.data.db.DealDatabaseProvider
 import com.golfmonitor.data.mapper.toEntity
+import com.golfmonitor.data.mapper.toModel
 import com.golfmonitor.data.provider.GolfNowProvider
-import com.golfmonitor.data.provider.UkGolfApiProvider
 
 class WeekendMonitorWorker(ctx: Context, params: WorkerParameters) : CoroutineWorker(ctx, params) {
     override suspend fun doWork(): Result {
         return try {
             val db = DealDatabaseProvider.getDatabase(applicationContext)
-            val ukProvider = UkGolfApiProvider("")
-            val courses = ukProvider.fetchCoursesInSoutheast()
-            // Cache courses
-            val courseEntities = courses.map { it.toEntity() }
-            if (courseEntities.isNotEmpty()) {
-                db.courseDao().insertAll(courseEntities)
-            }
+            // Courses, fees and ratings come from the bundled courses.json (see SeedData);
+            // the UK Golf API's free plan is too small to call from the phone.
+            val courses = db.courseDao().getAll().map { it.toModel() }
             val provider = GolfNowProvider("")
             val deals = provider.fetchWeekendDeals(courses)
             val filtered = deals.filter { it.priceGbp <= AppConfig.MAX_GREEN_FEE_GBP }

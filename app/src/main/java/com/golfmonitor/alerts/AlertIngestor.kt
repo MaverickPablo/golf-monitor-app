@@ -33,7 +33,8 @@ object AlertIngestor {
     ): ParsedAlert? {
         val db = DealDatabaseProvider.getDatabase(context)
         val fullText = listOfNotNull(title?.takeIf { it.isNotBlank() }, text).joinToString(" - ")
-        val parsed = GolfNowAlertParser.parse(fullText, receivedAt, db.courseDao().getAll())
+        val courses = db.courseDao().getAll()
+        val parsed = GolfNowAlertParser.parse(fullText, receivedAt, courses)
 
         db.capturedAlertDao().insert(
             CapturedAlertEntity(
@@ -58,7 +59,9 @@ object AlertIngestor {
                         date = parsed.date.toString(),
                         time = parsed.time,
                         priceGbp = parsed.priceGbp,
-                        baselinePriceGbp = parsed.baselinePriceGbp,
+                        // Alert's "was" price, else the course's usual Sunday green fee.
+                        baselinePriceGbp = parsed.baselinePriceGbp
+                            ?: courses.firstOrNull { it.id == parsed.courseId }?.greenFeeBaseline,
                         players = parsed.players ?: 0,
                         source = SOURCE_LABEL,
                         bookingUrl = GOLFNOW_URL

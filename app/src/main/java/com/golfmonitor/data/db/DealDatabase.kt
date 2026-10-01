@@ -13,7 +13,7 @@ import com.golfmonitor.data.db.dao.DealDao
 
 @Database(
     entities = [CourseEntity::class, DealEntity::class, CapturedAlertEntity::class],
-    version = 4,
+    version = 5,
     exportSchema = false
 )
 abstract class DealDatabase : RoomDatabase() {
@@ -44,6 +44,14 @@ abstract class DealDatabase : RoomDatabase() {
                         "`id` TEXT NOT NULL, `receivedAt` TEXT NOT NULL, `source` TEXT NOT NULL, " +
                         "`title` TEXT, `text` TEXT NOT NULL, `parsedDealId` TEXT, PRIMARY KEY(`id`))"
                 )
+            }
+        }
+
+        /** v5: Google rating and UK Golf API club id; greenFeeBaseline is now filled from courses.json. */
+        val MIGRATION_4_5 = object : Migration(4, 5) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("ALTER TABLE courses ADD COLUMN googleRating REAL")
+                db.execSQL("ALTER TABLE courses ADD COLUMN ukGolfClubId TEXT")
             }
         }
     }

@@ -18,5 +18,8 @@ data class CourseEntity(
     val bookingUrl: String? = null,
     val websiteUrl: String? = null,
     val imageUrl: String? = null,
-    val lastPlayed: String? = null // "2026-06-28" or "2024-05"
+    val lastPlayed: String? = null, // "2026-06-28" or "2024-05"
+    // From the UK Golf Course API (bundled in courses.json)
+    val googleRating: Double? = null,
+    val ukGolfClubId: String? = null
 )

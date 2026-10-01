@@ -20,7 +20,15 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
-        buildConfigField("String", "UK_GOLF_API_KEY", "\"${System.getenv("UK_GOLF_API_KEY") ?: project.findProperty("ukGolfApiKey") ?: ""}\"")
+        // Key from env, a Gradle property, or local.properties (gitignored). CI builds have none.
+        val localProps = java.util.Properties().apply {
+            rootProject.file("local.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) }
+        }
+        val ukGolfApiKey = System.getenv("UK_GOLF_API_KEY")
+            ?: project.findProperty("ukGolfApiKey")?.toString()
+            ?: localProps.getProperty("ukGolfApiKey")
+            ?: ""
+        buildConfigField("String", "UK_GOLF_API_KEY", "\"$ukGolfApiKey\"")
     }
     signingConfigs {
         // Fixed debug key so every CI build installs over the previous one

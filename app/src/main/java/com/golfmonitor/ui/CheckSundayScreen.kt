@@ -162,6 +162,8 @@ private fun CheckCourseRow(
         supportingContent = {
             val parts = listOfNotNull(
                 course.driveMinutes?.let { "$it min" },
+                course.greenFeeBaseline?.let { "usual £%.0f".format(it) },
+                course.googleRating?.let { "★%.1f".format(it) },
                 course.bookingSystem?.takeIf { it != "unknown/own" } ?: "Club site",
                 course.lastPlayed?.let { if (playedRecently) "played $it (recent)" else "played $it" }
             )

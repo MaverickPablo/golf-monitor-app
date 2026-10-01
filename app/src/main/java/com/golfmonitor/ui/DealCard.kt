@@ -21,7 +21,8 @@ fun DealCard(
     deal: TeeTimeDeal,
     details: CourseDetails? = null,
     imageUrl: String? = null,
-    driveMinutes: Int? = null
+    driveMinutes: Int? = null,
+    googleRating: Double? = null
 ) {
     val context = LocalContext.current
     Card(
@@ -61,7 +62,12 @@ fun DealCard(
 
             Spacer(modifier = Modifier.height(4.dp))
             Text(
-                listOfNotNull(deal.date, deal.time, driveMinutes?.let { "$it min drive" })
+                listOfNotNull(
+                    deal.date,
+                    deal.time,
+                    driveMinutes?.let { "$it min drive" },
+                    googleRating?.let { "★%.1f".format(it) }
+                )
                     .joinToString(" • ")
             )
             

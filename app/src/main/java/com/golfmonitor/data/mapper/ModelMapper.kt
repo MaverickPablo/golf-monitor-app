@@ -15,6 +15,16 @@ fun Course.toEntity() = CourseEntity(
     greenFeeBaseline = greenFeeBaseline
 )
 
+fun CourseEntity.toModel() = Course(
+    id = id,
+    name = name,
+    county = county,
+    latitude = latitude,
+    longitude = longitude,
+    postcode = postcode,
+    greenFeeBaseline = greenFeeBaseline
+)
+
 fun TeeTimeDeal.toEntity() = DealEntity(
     id = "$courseId-$date-$time",
     courseId = courseId,

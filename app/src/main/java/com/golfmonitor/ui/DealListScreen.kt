@@ -174,7 +174,12 @@ fun DealListScreen() {
                 LazyColumn {
                     items(filteredDeals) { deal ->
                         val course = coursesById[deal.courseId]
-                        DealCard(deal, imageUrl = course?.imageUrl, driveMinutes = course?.driveMinutes)
+                        DealCard(
+                            deal,
+                            imageUrl = course?.imageUrl,
+                            driveMinutes = course?.driveMinutes,
+                            googleRating = course?.googleRating
+                        )
                     }
                 }
             }
