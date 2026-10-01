@@ -8,6 +8,8 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
@@ -15,7 +17,12 @@ import com.golfmonitor.model.CourseDetails
 import com.golfmonitor.model.TeeTimeDeal
 
 @Composable
-fun DealCard(deal: TeeTimeDeal, details: CourseDetails? = null) {
+fun DealCard(
+    deal: TeeTimeDeal,
+    details: CourseDetails? = null,
+    imageUrl: String? = null,
+    driveMinutes: Int? = null
+) {
     val context = LocalContext.current
     Card(
         modifier = Modifier
@@ -53,7 +60,10 @@ fun DealCard(deal: TeeTimeDeal, details: CourseDetails? = null) {
             }
 
             Spacer(modifier = Modifier.height(4.dp))
-            Text("${deal.date} • ${deal.time}")
+            Text(
+                listOfNotNull(deal.date, deal.time, driveMinutes?.let { "$it min drive" })
+                    .joinToString(" • ")
+            )
             
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
@@ -82,16 +92,19 @@ fun DealCard(deal: TeeTimeDeal, details: CourseDetails? = null) {
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
-                it.imageUrl?.let { url ->
-                    Spacer(modifier = Modifier.height(8.dp))
-                    AsyncImage(
-                        model = url,
-                        contentDescription = deal.courseName,
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .height(140.dp)
-                    )
-                }
+            }
+
+            (imageUrl ?: details?.imageUrl)?.let { url ->
+                Spacer(modifier = Modifier.height(8.dp))
+                AsyncImage(
+                    model = url,
+                    contentDescription = deal.courseName,
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(140.dp)
+                        .clip(RoundedCornerShape(8.dp))
+                )
             }
 
             Spacer(modifier = Modifier.height(10.dp))
@@ -105,7 +118,7 @@ fun DealCard(deal: TeeTimeDeal, details: CourseDetails? = null) {
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.outline
                 )
-                Button(onClick = {
+                Button(enabled = deal.bookingUrl != null, onClick = {
                     deal.bookingUrl?.let { url ->
                         val intent = Intent(Intent.ACTION_VIEW, android.net.Uri.parse(url))
                         context.startActivity(intent)

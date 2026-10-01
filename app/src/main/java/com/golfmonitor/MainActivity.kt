@@ -13,7 +13,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         lifecycleScope.launch {
-            SeedData.seedIfEmpty(this@MainActivity)
+            SeedData.seed(this@MainActivity)
         }
         scheduleWeekendMonitor(this)
         setContent {

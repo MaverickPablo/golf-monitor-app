@@ -14,4 +14,7 @@ interface DealDao {
 
     @Query("SELECT * FROM deals WHERE priceGbp <= :maxPrice ORDER BY date, time")
     fun getDealsUnderPrice(maxPrice: Double): Flow<List<DealEntity>>
+
+    @Query("SELECT COUNT(*) FROM deals")
+    suspend fun count(): Int
 }

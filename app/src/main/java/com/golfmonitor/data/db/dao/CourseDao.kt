@@ -5,6 +5,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.golfmonitor.data.db.entity.CourseEntity
+import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface CourseDao {
@@ -13,4 +14,7 @@ interface CourseDao {
 
     @Query("SELECT * FROM courses")
     suspend fun getAll(): List<CourseEntity>
+
+    @Query("SELECT * FROM courses ORDER BY driveMinutes")
+    fun observeAll(): Flow<List<CourseEntity>>
 }

@@ -17,7 +17,6 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import com.golfmonitor.config.AppConfig
 import com.golfmonitor.data.preferences.FilterPreferences
-import com.golfmonitor.model.CourseDetails
 import com.golfmonitor.repository.DealRepository
 import com.golfmonitor.work.WeekendMonitorWorker
 import kotlinx.coroutines.launch
@@ -55,14 +54,9 @@ fun DealListScreen() {
     val dealsFlow = remember(maxPrice) { repository.getDealsFlow(maxPrice.toDouble()) }
     val deals by dealsFlow.collectAsState(initial = emptyList())
 
-    val sampleDetails = remember {
-        mapOf(
-            "c1" to CourseDetails("c1", 72, 132, 4.5, null),
-            "c2" to CourseDetails("c2", 71, 138, 4.7, null),
-            "c3" to CourseDetails("c3", 70, 128, 4.3, null),
-            "c4" to CourseDetails("c4", 72, 135, 4.6, null)
-        )
-    }
+    val coursesFlow = remember { repository.getCoursesFlow() }
+    val courses by coursesFlow.collectAsState(initial = emptyList())
+    val coursesById = remember(courses) { courses.associateBy { it.id } }
 
     val filteredDeals = remember(deals, showDiscountsOnly, startTime, endTime) {
         deals.filter { deal ->
@@ -179,7 +173,8 @@ fun DealListScreen() {
 
                 LazyColumn {
                     items(filteredDeals) { deal ->
-                        DealCard(deal, sampleDetails[deal.courseId])
+                        val course = coursesById[deal.courseId]
+                        DealCard(deal, imageUrl = course?.imageUrl, driveMinutes = course?.driveMinutes)
                     }
                 }
             }

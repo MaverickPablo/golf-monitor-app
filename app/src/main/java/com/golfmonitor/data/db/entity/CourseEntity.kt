@@ -11,5 +11,12 @@ data class CourseEntity(
     val latitude: Double,
     val longitude: Double,
     val postcode: String,
-    val greenFeeBaseline: Double?
+    val greenFeeBaseline: Double?,
+    // Sunday Caddie course knowledge (seeded from assets/courses.json)
+    val driveMinutes: Int? = null,
+    val bookingSystem: String? = null,
+    val bookingUrl: String? = null,
+    val websiteUrl: String? = null,
+    val imageUrl: String? = null,
+    val lastPlayed: String? = null // "2026-06-28" or "2024-05"
 )

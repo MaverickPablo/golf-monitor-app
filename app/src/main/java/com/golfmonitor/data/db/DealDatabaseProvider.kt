@@ -4,11 +4,19 @@ import android.content.Context
 import androidx.room.Room
 
 object DealDatabaseProvider {
-    fun getDatabase(context: Context): DealDatabase {
-        return Room.databaseBuilder(
-            context.applicationContext,
-            DealDatabase::class.java,
-            "golf_monitor_db"
-        ).fallbackToDestructiveMigration().build()
-    }
+    @Volatile
+    private var instance: DealDatabase? = null
+
+    fun getDatabase(context: Context): DealDatabase =
+        instance ?: synchronized(this) {
+            instance ?: Room.databaseBuilder(
+                context.applicationContext,
+                DealDatabase::class.java,
+                "golf_monitor_db"
+            )
+                .addMigrations(DealDatabase.MIGRATION_2_3)
+                .fallbackToDestructiveMigration()
+                .build()
+                .also { instance = it }
+        }
 }
